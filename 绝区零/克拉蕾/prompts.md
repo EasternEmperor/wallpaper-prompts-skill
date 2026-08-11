@@ -174,5 +174,18 @@ Fuse the architectural mood of the reference — warm firelit windows, snow-dust
 Negative Prompt:
 low quality, worst quality, blurry, bad anatomy, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, disfigured hands, poorly drawn hands, bad hand anatomy, broken fingers, blurry hands, indistinct fingers, extra limbs, photorealistic face, modern casual clothing, daytime lighting, wrong hair color, wrong eye color, incorrect character, chibi, text, watermark, logo.
 
+## 11（参考经典吸血鬼油画《The Vampire》·哥特掠食者构图融合）
+![alt text](ref-vampire-painting.jpg)
+
+Positive Prompt:
+Refer to the attached reference image (Figure 11), Philip Burne-Jones's 1897 classical gothic painting "The Vampire" — note the predatory triangular composition with the vampire woman leaning over her fallen victim, the dramatic chiaroscuro lighting, heavy dark drapery in the background, and the flowing pale gown cascading down like a shroud. Generate a 16:9 2K wallpaper of Claret Flint from Zenless Zone Zero recreating this iconic pose: she leans forward over the back of an ornate velvet chaise longue, one hand resting possessively near an unseen "victim" implied just out of frame at the bottom edge, her upper body twisted toward the viewer with a knowing, faintly predatory smile playing on her lips, eyes half-lidded with dangerous allure.
+
+Preserve her exact canonical design and color palette: blonde twin-tails with dark red gradient tips flowing loosely over one shoulder in place of the painting's dark hair, bright red eyes replacing the original's shadowed gaze, the black-and-white corset dress with cross clasps, bat-wing pauldrons, dark stockings. Fuse the painting's dramatic sepia-toned chiaroscuro lighting and heavy curtain backdrop into a modernized crimson-and-black gothic palette, keeping the same dramatic diagonal composition and predatory atmosphere. Add faint Electric-attribute sparks flickering near her extended hand as a unique elemental touch absent from the original painting.
+
+Negative Prompt:
+low quality, worst quality, blurry, bad anatomy, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, disfigured hands, poorly drawn hands, bad hand anatomy, broken fingers, blurry hands, indistinct fingers, extra limbs, visible victim character, gore, horror injury details, black-and-white monochrome rendering, wrong hair color, wrong eye color, incorrect character, daytime lighting, cheerful expression, chibi, text, watermark, logo.
+
 # 注
-本期未能从B站WIKI获取到二次创作分类的立绘资源，因角色档案于8月7-8日刚发布，二次创作维基页面尚未建立（wiki.biligame.com/zzz/克拉蕾 页面为空）。已改用百度百科词条概述图（首发官方立绘，1297x1369，来源 zenless.hoyoverse.com 官方PV截取）作为参考图核心素材，图片准确性和清晰度均有保障。跨领域参考图选用维基共享资源（Wikimedia Commons）授权的布朗城堡（Bran Castle，"德古拉城堡"原型）夜景照片，与角色的吸血鬼哥特贵族设定高度契合。
+本期未能从B站WIKI获取到二次创作分类的立绘资源，因角色档案于8月7-8日刚发布，二次创作维基页面尚未建立（wiki.biligame.com/zzz/克拉蕾 页面为空）。已改用百度百科词条概述图（首发官方立绘，1297x1369，来源 zenless.hoyoverse.com 官方PV截取）作为参考图核心素材，图片准确性和清晰度均有保障。
+
+跨领域参考图共两张，均来自维基共享资源（Wikimedia Commons，公共领域/自由授权素材）：其一为布朗城堡（Bran Castle，"德古拉城堡"原型）夜景照片，用于场景氛围融合；其二为英国画家 Philip Burne-Jones 创作于1897年的经典哥特油画《The Vampire》（吸血鬼），画面中吸血鬼女性俯身猎物的经典构图与阴郁光影，与克拉蕾"哥特吸血鬼贵族"的人设定位高度契合，是本期"人物姿态与氛围融合"类跨领域参考图的核心素材。
