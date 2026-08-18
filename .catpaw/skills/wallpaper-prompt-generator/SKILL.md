@@ -195,6 +195,7 @@ AI 生图最常见的问题就是手部画错（多指、少指、融合指、�
 | 段落 | 数量 | 说明 |
 |------|------|------|
 | 必需·涂鸦墙街头风 | 1 | 引用 `../../needful.png`，现代街头服饰 + 涂鸦墙，冷漠/不屑表情 |
+| 必需·特写肖像 | 1 | 引用 `../../needful2.png`，道具半遮面 + 矛盾表情 + 单光源暗背景，见下方「必需2 — 角色特写肖像」公式 |
 | 角色设定场景 | 3~4 | 忠于游戏世界观的经典场景（剧情、战斗、标志性地点） |
 | 现代风改造 | 1~2 | 御姐/可爱/赛博朋克/学院风等现代服饰改造 |
 | 动态/战斗场景 | 1~2 | 元素技能释放、战斗动作、动态构图 |
@@ -269,6 +270,125 @@ curl -s "https://wiki.biligame.com/{game}/api.php?action=query&list=allimages&ai
 **反面案例（2026.08.11 伊涅芙）**：仅凭「多用途智能辅助单元」这一称呼，将薇尔琪塔推断为「圆形悬浮无人机 + 单个红橙色镜头眼」，实际官方设定是「方盒形 CRT 电视机头小机器人，屏幕以像素点阵显示表情，双腿站立行走」——外形、面部、移动方式全错，导致 10 处描述需要返工。**教训：伴生元素的名称几乎不携带外观信息，必须看图。**
 
 伴生元素外观确认后，应主动挖掘其**表现力优势**并写进每个场景。如薇尔琪塔的像素屏幕可显示丰富表情，就为每个场景指定对应表情（开心弯眼/惊慌雪花屏/困困横线眼），使其从背景道具升级为有情绪反应的第二主角。
+
+#### 必需1 — 涂鸦墙街头风 (Graffiti Wall Street Style)
+
+每个类型 A 角色单人壁纸合集**必须包含且仅包含一条**涂鸦墙街头风 prompt。这是视频系列视觉辨识度最高的封面级 prompt，核心锚点是：**角色必须坐在涂鸦墙前、穿现代街头风服装、表情冷漠不屑**。
+
+**参考图**：`![alt text](../../needful.png)`（刻晴坐于涂鸦墙前的街头风壁纸，全局共享，位于工作区根目录）
+
+**核心四约束（不可偏离，按优先级排序）**：
+
+| 优先级 | 约束项 | 硬性要求 |
+|--------|--------|----------|
+| 1 | 角色姿态 | **必须坐着**，如坐于矮墙/木箱/折叠椅/摩托车座/地面等，严禁站立 |
+| 2 | 背景 | **必须是涂鸦墙**，色彩与角色主题色匹配，含角色名/元素符号/主题涂鸦元素 |
+| 3 | 表情与眼神 | **必须冷漠、不屑、居高临下**，silently judging the viewer，严禁温暖/甜美/可爱/唱歌等表情 |
+| 4 | 服装风格 | **必须是现代街头风**，严禁使用游戏原设定服装（除非原设定本身就是街头风） |
+
+**服装公式**：
+
+上身和下身必须同时满足以下规范，且需**突破原游戏设定**进行现代潮流改造：
+
+- **上身**：无袖露脐短款上衣（crop top / tube top / 紧身短款背心） + 敞开的短夹克（cropped jacket / 短款机车夹克 / 短款运动外套），夹克可半脱式搭在肩上
+- **下身**：短裙（skater skirt / pleated mini skirt）或短牛仔裤（denim shorts / 破洞短裤），必须露出大部分腿部线条
+- **腿部**：光腿或搭配丝袜/过膝袜（根据角色气质选择，颜色需与角色主题色呼应）
+- **鞋履**：运动鞋 / 马丁靴 / 厚底鞋，避免正式皮鞋或原设高跟鞋
+- **配饰**：链条项链 / 耳钉 / 手环 / 腰带等潮流饰品，可加入角色标志性元素（如角色专属符号、元素主题配饰）
+- **改造原则**：保留角色标志性发型、发色、瞳色、发饰，其余服装全部替换为街头潮流单品。如角色有标志性外套/披风，可将其转化为街头夹克风格
+
+**涂鸦墙公式**：
+
+- **色彩方案**：涂鸦墙的主色调必须与角色的主题色/元素色/阵营色**高度匹配**（如火角色→红橙暖色调涂鸦、冰角色→蓝紫冷色调涂鸦、草角色→绿黄自然色调涂鸦）
+- **内容元素**：墙上必须包含以下至少两类涂鸦元素：
+  - 角色名或角色外号的艺术字体涂鸦
+  - 角色元素符号（如火焰/水滴/闪电/风旋等）
+  - 角色主题相关图案（如角色武器剪影、标志性物品、阵营徽章）
+  - 街头风格的抽象几何图形、喷漆滴落效果、涂鸦签名
+- **质感要求**：多层喷漆叠加效果、墙面剥落的真实质感、霓虹光反射、喷漆罐摆放在画面一角作为道具
+
+**表情与姿态公式**：
+
+- **核心情绪**：cold, disdainful, dismissive, aloof, superior — 像一位居高临下的女王在审视闯入她领地的人
+- **眼神方向**：直接注视镜头，眼神锐利、冷漠、带有审视感
+- **肢体语言**：放松但充满掌控感，身体微微后仰或侧倚，一只手随意支撑或拿着小道具，另一只手自然垂放或搭在膝上
+- **面部细节**：嘴角微不可察的弧度，不是微笑而是轻蔑；瞳孔收缩锐利；眉毛自然不皱但带有距离感
+- **禁止项**：温暖的笑容（warm smile, gentle smile, cheerful）、唱歌张嘴（singing, open mouth singing）、惊讶表情、可爱表情、温柔表情
+
+**完整 prompt 模板**：
+
+```
+Refer to the attached reference image (Figure 1). Generate a similar style image of {角色英文名} from {游戏英文名} sitting casually in front of a bold graffiti wall. {角色名} is seated in a relaxed but confident posture, {具体坐姿描述如"leaning back against the graffiti wall with one knee raised, her other leg stretched out casually"}, with her body language calm, controlled, and slightly provocative. Her expression should show cold, disdainful eyes, aloof, sharp, and superior, as if she is silently judging the viewer.
+
+Keep {角色名}'s recognizable features: {保留角色标志性外貌特征列表}. Blend her canonical design with a modern edgy streetwear aesthetic: {上身服装描述 — 无袖露脐+短夹克}, {下身服装描述 — 短裙或短牛仔裤}, {腿部描述 — 光腿或丝袜}, {鞋履描述}, {潮流配饰描述}. Preserve her identity while giving her a fresh urban street-style look.
+
+The graffiti wall behind her should be vivid and layered, full of expressive abstract shapes and energetic street-art textures in {角色主题色} tones, with graffiti elements including {角色名涂鸦字体}, {元素符号涂鸦}, {主题图案涂鸦}, creating a rebellious urban backdrop that resonates with her character theme. Add subtle {角色元素名} energy effects, {角色主题特效}, and {角色标志性小道具} around her to reinforce her identity.
+
+Use a wide cinematic framing suitable for a 16:9 wallpaper, with {角色名} as the main focal point while still showing enough of the graffiti wall and surrounding environment for atmosphere. The mood should feel cool, stylish, intimidating, and mysterious. Highly detailed background, rich shadows, {角色主题色} glowing highlights, sharp focus on {角色名}, and a refined high-end anime illustration look.
+```
+
+**负面提示词追加项**（在常规 negative prompt 基础上**必须额外追加**以下内容）：
+
+`standing, standing pose, upright posture, singing, open mouth singing, warm smile, gentle smile, cheerful expression, cute expression, adorable, sweet, innocent, game canonical outfit, official costume, fantasy dress, medieval clothing, armor, full gown, formal dress, beach background, ocean background, nature background, indoor background, plain background, minimal background, missing graffiti wall, low detail graffiti, generic graffiti, wrong graffiti colors, wrong streetwear, missing crop top, missing jacket, missing shorts, missing skirt, long dress, full pants, business suit, school uniform`
+
+---
+
+#### 必需2 — 角色特写肖像 (Close-up Portrait)
+
+每个类型 A 角色单人壁纸合集**必须包含且仅包含一条**特写肖像 prompt。这类壁纸的核心价值在于：用一个极简画面承载角色最深的叙事内核——不是展示角色"在做什么"，而是揭示角色"是什么"。
+
+**参考图**：`![alt text](../../needful2.png)`（阿蕾奇诺手持玫瑰半遮面特写肖像，全局共享，位于工作区根目录）
+
+**五步公式（必须全部执行）**：
+
+1. **道具选择 — 手持、有叙事意义、有视觉质感**
+
+   选择一个角色可以用单手夹持/举起的小物件，该物件必须与角色的故事背景、身份或核心悲剧有深层关联。不是武器（太大会变成战斗图），不是随意装饰品（无叙事重量），而是那种"如果有人问这个角色'你最在意什么'，他们会默默从口袋里掏出来的东西"。
+
+   | 角色类型 | 道具思路 |
+   |---------|---------|
+   | 贵族/统治者 | 家族徽章、旧信物、枯花、酒杯 |
+   | 战士/军人 | 弹壳、断裂的剑刃、勋章、旧照片 |
+   | 机械/人造生命 | 齿轮、螺丝、怀表、芯片、断线 |
+   | 学者/法师 | 古书页、硬币、罗盘、星图 |
+   | 旅行者/流浪者 | 车票、地图碎片、干花、口琴 |
+
+2. **空间关系 — 道具半遮一只眼（partial obscurement）**
+
+   道具举起至眼部高度，从侧面部分遮挡角色一只眼睛。观众通过道具的边缘/孔洞/缝隙看到被遮一侧的眼球或虹膜。这种构图制造三层视觉张力：道具本身的美感 → 被遮眼若隐若现的窥视感 → 未遮眼的正面凝视。**严禁**道具完全遮住整张脸（变成面具效果）或完全不遮挡（变成展示道具的全身图）。
+
+3. **矛盾表情 — 同时呈现两种对立情绪**
+
+   面部表情必须让观者同时读出两种相反的情绪状态，这是整个特写肖像的灵魂。不要写"smiling"或"sad"这种单一情绪，而是写出那种需要观者定睛看一会才能解读的复杂表情。
+
+   | 矛盾对 | 表情描述范例 |
+   |--------|-------------|
+   | 温柔 vs 威胁 | "simultaneously inviting and threatening, the look of someone deciding whether to kiss you or kill you" |
+   | 怀旧 vs 漠然 | "detached, melancholic amusement, as if the coin reminds him of a bet he won centuries ago and no longer cares about" |
+   | 渴望 vs 恐惧 | 眼神追忆着什么，但嘴角的弧度暗示她害怕找到答案 |
+   | 傲慢 vs 脆弱 | 下巴微抬的贵族姿态，但瞳孔中有未经允许的颤抖 |
+
+   技巧：用"a faint X that never reaches Y"或"the barest Z, as if..."这类句式，让情绪的表达本身也带着克制和矛盾。
+
+4. **叙事性总结句 — 一句话点明角色的核心悲剧/悖论/双重性**
+
+   在 prompt 的末尾（在画面比例标注之前），写一句话总结句，将道具、表情、角色设定三者收束为一个关于"这个角色是谁"的命题。这句话不是场景描述，而是角色的命运注脚。
+
+   范例：
+   - 阿蕾奇诺：「A villain who could have been a lover, a mother who chose to be a father.」
+   - 菲林斯：「A fairy who outlived his kingdom, now spending eternity cataloguing what he's lost.」
+
+5. **单光源 + 纯黑背景 — 明暗对照法 (chiaroscuro)**
+
+   单一光源从画面一侧（通常左上或右上）45°角照射，在面部形成强烈的明暗分界。道具在光源照射方向上呈现透光/反光质感（如玫瑰花瓣透出深红光、硬币金属表面反射冷光）。背景为纯黑（pure black background），角色只有面部、手和道具存在于画面中，极简、亲密、静谧。如角色有元素属性，可在道具上加一抹元素色彩的次级光（如雷元素角色的道具边缘有淡紫色辉光）。
+
+**完整 prompt 模板（以阿蕾奇诺为范例）**：
+
+```
+Refer to the attached reference image (Figure 2). Generate a cinematic close-up portrait of {角色英文名} from {游戏英文名}. She holds a {道具描述} close to the {左/右} side of her face, {道具与面部的空间关系}, partially obscuring her {左/右} eye. Her visible {另一侧} eye gazes directly at the viewer — {矛盾表情的完整描述}. Expression: {表情细节，包含两种对立情绪}. Dramatic single-source lighting from the upper {左/右} casts deep chiaroscuro across her features, the {道具材质} glowing {颜色} where the light passes through. Her {肤色描述} contrasts sharply against a pure black background. Her signature {发型发色描述} {头发与画面的关系}; her {服装描述} is only barely visible at the collar. {叙事性总结句}. 16:9 2K wallpaper.
+```
+
+**负面提示词要点**：在常规 negative prompt 基础上额外排除 `full body shot, wide shot, landscape, multiple subjects, busy background, bright cheerful lighting, outdoor scene, action pose, weapon drawn`——特写肖像的极简画面反过来要求 negative prompt 更积极地排除一切非特写元素。
 
 ---
 

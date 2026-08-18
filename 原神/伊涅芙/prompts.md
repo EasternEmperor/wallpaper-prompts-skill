@@ -22,6 +22,16 @@ Refer to the attached reference image (Figure 1). Generate a similar style image
 
 Negative Prompt: low quality, worst quality, blurry, pixelated, bad anatomy, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, extra limbs, chibi, childish, wrong hair color, blonde hair, pink hair, dark hair, wrong eye color, red eyes, missing sailor cap, missing mechanical ear units, missing mechanical joints, fully human body, warm sunny daylight, cheerful wide smile, text, watermark, logo, signature.
 
+# 必需2 — 特写肖像
+
+![alt text](../../needful2.png)
+
+Refer to the attached reference image (Figure 2). Generate a cinematic close-up portrait of Ineffa from Genshin Impact. She holds a small brass gear — tarnished gold with precisely cut teeth and a central circular hole — between her thumb and forefinger at eye level, positioned just in front of her right eye so the viewer sees her blue-grey iris peering through the gear's center hole, the ring of metal framing her pupil like a mechanical aperture within a mechanical eye. Her visible left eye gazes directly at the camera with a still, searching intensity — not sadness, not curiosity, but the quiet bewilderment of a machine examining a single component and trying to determine whether it once belonged to her own body or someone else's. Expression: lips faintly parted, the barest downturn at one corner that could be concentration or could be grief, her brow smooth and untroubled in a way that makes the almost-emotion beneath it more unsettling — a face built to default neutral, failing to fully render what it feels. Dramatic single-source lighting from the upper left, warm amber-bronze, picks out the metallic texture of the gear and the sharp porcelain planes of her face in chiaroscuro, a faint violet Electro glint licking along the gear's teeth where her thumb touches it — the only trace of the element that powers her. Her pale ice-blue hair dissolves into the pure black background at the edges, only the blunt bangs and one side lock catching the amber light; her small white sailor cap with gold trim is barely implied at the crown of the frame. Only her face, her hand, and the gear exist in the frame — minimalist, intimate, and hauntingly still. A machine trying very hard to remember if this piece once belonged to her, uncertain whether the answer would comfort her or break something she cannot repair. 16:9 2K wallpaper.
+
+perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, thumb and forefinger holding gear, remaining fingers naturally curled.
+
+Negative Prompt: low quality, worst quality, blurry, pixelated, bad anatomy, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, full body shot, wide shot, landscape, multiple subjects, busy background, bright cheerful lighting, outdoor scene, action pose, weapon drawn, battle effects, warm sunny daylight, cheerful wide smile, multiple characters, wrong hair color, wrong eye color, missing sailor cap, missing mechanical ear units, incorrect character, chibi, text, watermark, logo, signature.
+
 # 人物设定
 
 ## 1 — 叮铃哐啷蛋卷工坊·清晨启动（标志性场景）
@@ -244,4 +254,4 @@ low quality, worst quality, blurry face, pixelated, bad anatomy, bad hands, extr
 
 其二为精密计时机芯表盘微距摄影 `ref-chronograph-macro.jpg`（Unsplash 免费授权），拉丝银白金属质感、同心圆纹饰盘、极浅景深的冷调画面，对应伊涅芙作为「叮铃哐啷蛋卷工坊」精密机械造物的本质，其银白冷色调也与角色配色天然契合。原计划使用18世纪 Maillardet 自动人偶（Wikimedia Commons）作为机械造物参考，但该域名在当前网络环境下无法访问，故改用同维度的精密机芯摄影替代，实际效果在配色契合度上反而更优。
 
-**本期结构**：必需涂鸦墙 1 条 + 人物设定 7 条（工坊日常 / 元素爆发战斗 / 剧情记忆叙事 / 家务反差萌 / 至冬雪原 7.0主题 / 蒸汽朋克舞会风格改造 / 私人情感时刻）+ 参考图变体 2 条（战场全景扩展、9:16手机竖屏）+ 跨领域融合 2 条 = 共 12 条 prompts。
+**本期结构**：必需涂鸦墙 1 条 + 必需特写肖像 1 条 + 人物设定 7 条（工坊日常 / 元素爆发战斗 / 剧情记忆叙事 / 家务反差萌 / 至冬雪原 7.0主题 / 蒸汽朋克舞会风格改造 / 私人情感时刻）+ 参考图变体 2 条（战场全景扩展、9:16手机竖屏）+ 跨领域融合 2 条 = 共 13 条 prompts。
