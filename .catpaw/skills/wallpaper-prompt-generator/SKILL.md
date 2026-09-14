@@ -1,6 +1,6 @@
 ---
 name: wallpaper-prompt-generator
-description: 米哈游游戏角色壁纸 AI 生图 prompts 每日生成工具。根据游戏热点（原神/绝区零/崩铁版本更新、前瞻直播、新角色上线）、社区热度（B站/小红书/米游社）、时事节日、角色人气，自动决策当天要制作哪个角色的壁纸，并生成 10 条左右高质量 prompts（含 positive/negative prompt、背景场景、人物动作描述）。触发词：生成壁纸prompts、今日壁纸、每日壁纸、wallpaper prompts、角色壁纸、游戏壁纸、原神壁纸、绝区零壁纸、崩铁壁纸、米哈游壁纸。
+description: 米哈游游戏角色壁纸 AI 生图 prompts 每日生成工具。根据游戏热点（原神/绝区零/崩铁版本更新、前瞻直播、新角色上线）、社区热度（B站/小红书/米游社）、时事节日、角色人气，自动决策当天要制作哪个角色的壁纸，并生成 12 条左右高质量 prompts（含 positive/negative prompt、背景场景、人物动作描述）。触发词：生成壁纸prompts、今日壁纸、每日壁纸、wallpaper prompts、角色壁纸、游戏壁纸、原神壁纸、绝区零壁纸、崩铁壁纸、米哈游壁纸。
 ---
 
 # 米哈游游戏角色壁纸 Prompts 每日生成
@@ -117,7 +117,7 @@ description: 米哈游游戏角色壁纸 AI 生图 prompts 每日生成工具。
 
 | 类型 | 说明 | 角色数量 | 每角色 prompts | 总 prompts |
 |------|------|----------|---------------|-----------|
-| A. 角色单人壁纸合集 | 围绕一个角色，多场景多风格 | 1 个 | 10 条左右 | ~10 |
+| A. 角色单人壁纸合集 | 围绕一个角色，多场景多风格 | 1 个 | 12 条左右 | ~12 |
 | B. 主题类型合集 | 同一主题，横跨多个不同角色 | 4~6 个 | 每个 1~2 条 | ~10 |
 | C. 可爱动物萌化形象合集 | 不同角色的动物拟化壁纸 | 5~8 个 | 每个 1 条 | ~8 |
 | D. 表情包合集 | 同一角色的玩梗表情包 | 1 个 | 8~12 条 | ~10 |
@@ -152,7 +152,7 @@ description: 米哈游游戏角色壁纸 AI 生图 prompts 每日生成工具。
 ### 通用规范（适用所有类型）
 
 **Positive Prompt 必含项**：
-- 画面比例与用途（如 `16:9 2K wallpaper`、`9:16 mobile wallpaper`、`1:1 表情包`）
+- 画面比例与用途（如 `16:9 2K wallpaper`、`9:16 mobile wallpaper`、`4:3 tablet wallpaper`、`√2:1 foldable wallpaper`、`1:1 表情包`）
 - 角色全名与出处（如 `Odette from Genshin Impact`）
 - 画风描述（`highly detailed anime-style illustration` / `3D cel-shaded` / `cute chibi` 等）
 - 人物外貌特征（发色发型、瞳色、标志性配饰，必须准确）
@@ -188,7 +188,7 @@ AI 生图最常见的问题就是手部画错（多指、少指、融合指、�
 
 ### 类型 A：角色单人壁纸合集
 
-围绕一个角色，多场景多风格，约 10 条 prompts。
+围绕一个角色，多场景多风格，约 12 条 prompts。
 
 **结构**：
 
@@ -196,12 +196,12 @@ AI 生图最常见的问题就是手部画错（多指、少指、融合指、�
 |------|------|------|
 | 必需·涂鸦墙街头风 | 1 | 引用 `../../needful.png`，现代街头服饰 + 涂鸦墙，冷漠/不屑表情 |
 | 必需·特写肖像 | 1 | 引用 `../../needful2.png`，道具半遮面 + 矛盾表情 + 单光源暗背景，见下方「必需2 — 角色特写肖像」公式 |
-| 角色设定场景 | 3~4 | 忠于游戏世界观的经典场景（剧情、战斗、标志性地点） |
+| 角色设定场景 | 2 | 忠于游戏世界观的经典场景（剧情、日常、标志性地点） |
 | 现代风改造 | 1~2 | 御姐/可爱/赛博朋克/学院风等现代服饰改造 |
-| 动态/战斗场景 | 1~2 | 元素技能释放、战斗动作、动态构图 |
+| 动态/战斗场景 | 1 | 元素技能释放、战斗动作、动态构图 |
 | 情感/日常/反差 | 1 | 温馨日常、反差萌、私人时刻 |
 | 热点主题特别版 | 0~1 | 结合当天时事（节日/赛事/纪念日），如无则省略 |
-| 参考图变体 | 1~2 | 基于下载的立绘/参考图生成，含竖屏手机壁纸 |
+| 动漫风格 | 4 | 2D 日漫风 + 朴素单色背景，四比例系列（手机 9:16 / 电脑 16:9 / iPad 4:3 / 阔折叠 √2:1），见下方「动漫风格 — 2D 日漫简约背景系列」 |
 | 跨领域参考图 | 1~2 | 基于角色职业对应的真实世界素材（照片/名画/海报） |
 
 **参考图下载（必须在写 prompts 之前完成）**：
@@ -389,6 +389,39 @@ Refer to the attached reference image (Figure 2). Generate a cinematic close-up 
 ```
 
 **负面提示词要点**：在常规 negative prompt 基础上额外排除 `full body shot, wide shot, landscape, multiple subjects, busy background, bright cheerful lighting, outdoor scene, action pose, weapon drawn`——特写肖像的极简画面反过来要求 negative prompt 更积极地排除一切非特写元素。
+
+---
+
+#### 动漫风格 — 2D 日漫简约背景系列
+
+每个类型 A 角色单人壁纸合集**固定包含 4 条**动漫风格 prompts。这类壁纸的核心是：**人物绘制更偏向 2D 日漫风格，背景单纯简单朴素**，同一角色同一画风形成一套四比例壁纸系列，覆盖手机、电脑、平板、阔折叠屏四种设备。
+
+**四张固定比例（不可增减、不可替换）**：
+
+| 张数 | 用途 | 画面比例标注 |
+|------|------|-------------|
+| 1 | 手机壁纸 | `9:16 vertical mobile wallpaper` |
+| 2 | 电脑壁纸 | `16:9 desktop wallpaper` |
+| 3 | iPad 壁纸 | `4:3 tablet wallpaper` |
+| 4 | 阔折叠手机（展开态） | `√2:1 (1.414:1) foldable phone unfolded wallpaper` |
+
+**画风核心约束（必须全部满足）**：
+
+1. **2D 日漫风人物**：positive prompt 必含 `2D Japanese anime style, flat cel shading, clean thin lineart, soft anime coloring, Japanese anime aesthetic`；人物绘制走扁平赛璐璐、细线条、柔和上色的路线，不走 3D 渲染、半写实、厚涂路线
+2. **朴素背景**：positive prompt 必含 `simple plain background, minimal flat single-tone backdrop with subtle gradient`——纯色或淡色渐变，主色与角色主题色呼应（如冰角色→淡蓝白、火角色→米橙）；背景中不出现建筑、场景、道具堆砌，最多允许极简装饰（如少量漂浮元素色光点/雪花/花瓣）
+3. **构图随比例调整**：9:16 竖版用半身或全身居中构图；16:9 横版让人物站于画面一侧留白呼吸感；4:3 用居中半身；√2:1 用横向极简留白构图
+4. **系列一致性**：四条 prompt 共用同一套人物外貌/服装描述与同一背景色方案，仅微调姿势与背景色调深浅形成系列变化，画风、配色、简约度必须统一
+
+**Prompt 要点**：
+
+- 人物姿势简单干净：`standing with hands relaxed at sides`、`arms crossed`、`looking back over shoulder` 等，避免复杂手指交互
+- 表情可随系列微调（平静/淡笑/回眸/闭眼），但气质统一
+- 光影简洁柔和：`soft even lighting, gentle rim light in {角色主题色}`，避免复杂戏剧光
+- 保留手部规范：手部可见时写明五指，negative prompt 保持通用手部穷举
+
+**负面提示词追加项**（在通用手部穷举与画质排除基础上**必须额外追加**）：
+
+`3D render, semi-realistic, realistic, painterly, thick oil paint, game 3D model, complex background, detailed scenery, cluttered background, architecture, busy props, heavy details`
 
 ---
 
