@@ -194,7 +194,7 @@ AI 生图最常见的问题就是手部画错（多指、少指、融合指、�
 
 | 段落 | 数量 | 说明 |
 |------|------|------|
-| 必需·涂鸦墙街头风 | 1 | 引用 `../../needful.png`，现代街头服饰 + 涂鸦墙，冷漠/不屑表情 |
+| 必需·涂鸦墙街头风 | 1 | **先判定角色性别**：女引用 `../../needful1-woman.png`，男引用 `../../needful1-man.png`；现代街头服饰 + 涂鸦墙，冷漠/不屑表情 |
 | 必需·特写肖像 | 1 | 引用 `../../needful2.png`，道具半遮面 + 矛盾表情 + 单光源暗背景，见下方「必需2 — 角色特写肖像」公式 |
 | 角色设定场景 | 2 | 忠于游戏世界观的经典场景（剧情、日常、标志性地点） |
 | 现代风改造 | 1~2 | 御姐/可爱/赛博朋克/学院风等现代服饰改造 |
@@ -275,7 +275,18 @@ curl -s "https://wiki.biligame.com/{game}/api.php?action=query&list=allimages&ai
 
 每个类型 A 角色单人壁纸合集**必须包含且仅包含一条**涂鸦墙街头风 prompt。这是视频系列视觉辨识度最高的封面级 prompt，核心锚点是：**角色必须坐在涂鸦墙前、穿现代街头风服装、表情冷漠不屑**。
 
-**参考图**：`![alt text](../../needful.png)`（刻晴坐于涂鸦墙前的街头风壁纸，全局共享，位于工作区根目录）
+**参考图（按角色性别二选一，全局共享，位于工作区根目录）**：
+
+- **女性角色**：`![alt text](../../needful1-woman.png)`（刻晴坐于涂鸦墙前的街头风壁纸）
+- **男性角色**：`![alt text](../../needful1-man.png)`（砂金·戏浪坐于涂鸦墙前的街头风壁纸）
+
+**⚠️ 性别判定与参考图选择（写 prompt 前的第一步，不可跳过）**：
+
+1. 先依据官方立绘/头像/游戏内模型判定角色性别；拿不准时必须看图确认，宁可信官方资料也不要猜（体型描述如「少年」「小男孩」「成男」均可作为辅助判据）。
+2. 女性角色引用 `needful1-woman.png` 并使用下方**女版服装公式与模板**；男性角色引用 `needful1-man.png` 并使用**男版服装公式与模板**。严禁男角色套用女版公式。
+3. **参考图的作用域必须锁定**：它只提供构图、坐姿气质、涂鸦墙风格与整体氛围参考。prompt 中必须显式声明人物性别并加入体型锚定词，并在模板开头写明参考图仅用于构图/背景/氛围（"for composition, graffiti-wall style, and overall atmosphere only"），防止参考图角色的性别气质（长发、曲线、妆容、露肤方式）污染产图。
+
+**反面案例（2026.09.15 米提亚）**：男角色直接套用女版公式与女参考图，保留了 crop top + 牛仔短裤等女性符号，且未锁定参考图作用域，产图出现明显女性化特征（身形曲线化、妆容化）。**教训：性别判定必须先行，男版女版公式不可混用，参考图作用域必须显式限定。**
 
 **核心四约束（不可偏离，按优先级排序）**：
 
@@ -286,16 +297,28 @@ curl -s "https://wiki.biligame.com/{game}/api.php?action=query&list=allimages&ai
 | 3 | 表情与眼神 | **必须冷漠、不屑、居高临下**，silently judging the viewer，严禁温暖/甜美/可爱/唱歌等表情 |
 | 4 | 服装风格 | **必须是现代街头风**，严禁使用游戏原设定服装（除非原设定本身就是街头风） |
 
-**服装公式**：
+**服装公式（按性别二选一）**：
 
 上身和下身必须同时满足以下规范，且需**突破原游戏设定**进行现代潮流改造：
+
+**女版（女性角色专用）**：
 
 - **上身**：无袖露脐短款上衣（crop top / tube top / 紧身短款背心） + 敞开的短夹克（cropped jacket / 短款机车夹克 / 短款运动外套），夹克可半脱式搭在肩上
 - **下身**：短裙（skater skirt / pleated mini skirt）或短牛仔裤（denim shorts / 破洞短裤），必须露出大部分腿部线条
 - **腿部**：光腿或搭配丝袜/过膝袜（根据角色气质选择，颜色需与角色主题色呼应）
+- **体型锚定**：必须写入女性身形描述（如 slender feminine figure），与参考图气质呼应
 - **鞋履**：运动鞋 / 马丁靴 / 厚底鞋，避免正式皮鞋或原设高跟鞋
 - **配饰**：链条项链 / 耳钉 / 手环 / 腰带等潮流饰品，可加入角色标志性元素（如角色专属符号、元素主题配饰）
 - **改造原则**：保留角色标志性发型、发色、瞳色、发饰，其余服装全部替换为街头潮流单品。如角色有标志性外套/披风，可将其转化为街头夹克风格
+
+**男版（男性角色专用）**：
+
+- **上身**：宽松短袖 T 恤（oversized tee）或合身无袖背心（fitted tank top，不露脐） + 敞开的短夹克（cropped jacket / 机车夹克 / 印花衬衫），衬衫/夹克可敞开露出胸口，严禁 crop top / tube top 等露脐单品
+- **下身**：束脚工装裤（cargo pants）/ 破洞牛仔裤（ripped jeans）/ 及膝宽松休闲短裤（relaxed-fit shorts），版型必须宽松利落，严禁短裙/紧身短裤
+- **体型锚定**：必须写入男性身形描述（如 masculine athletic build, broad shoulders, toned arms），少年体型角色可用 boyish handsome features 替代肌肉描述，但 broad shoulders 等性别锚定词不可省略
+- **鞋履**：运动鞋 / 高帮板鞋 / 马丁靴，避免正式皮鞋
+- **配饰**：链条项链（可叠戴）/ 戒指 / 手环 / 腰链等潮流饰品，可加入角色标志性元素
+- **改造原则**：保留角色标志性发型、发色、瞳色、发饰，其余服装全部替换为街头潮流单品。如角色有标志性外套/披风，可将其转化为街头夹克或衬衫风格
 
 **涂鸦墙公式**：
 
@@ -309,13 +332,13 @@ curl -s "https://wiki.biligame.com/{game}/api.php?action=query&list=allimages&ai
 
 **表情与姿态公式**：
 
-- **核心情绪**：cold, disdainful, dismissive, aloof, superior — 像一位居高临下的女王在审视闯入她领地的人
+- **核心情绪**：cold, disdainful, dismissive, aloof, superior — 女版像一位居高临下的女王在审视闯入她领地的人，男版像一位执掌棋局的年轻帝王在审视送上门的对手
 - **眼神方向**：直接注视镜头，眼神锐利、冷漠、带有审视感
-- **肢体语言**：放松但充满掌控感，身体微微后仰或侧倚，一只手随意支撑或拿着小道具，另一只手自然垂放或搭在膝上
+- **肢体语言**：放松但充满掌控感，身体微微后仰或侧倚，一只手随意支撑或拿着小道具，另一只手自然垂放或搭在膝上。男版坐姿推荐单膝立起、小臂搭膝，或手臂展开撑靠，避免以展示腿部曲线为目的的姿态语言
 - **面部细节**：嘴角微不可察的弧度，不是微笑而是轻蔑；瞳孔收缩锐利；眉毛自然不皱但带有距离感
 - **禁止项**：温暖的笑容（warm smile, gentle smile, cheerful）、唱歌张嘴（singing, open mouth singing）、惊讶表情、可爱表情、温柔表情
 
-**完整 prompt 模板**：
+**完整 prompt 模板（女版，女性角色专用，配 `needful1-woman.png`）**：
 
 ```
 Refer to the attached reference image (Figure 1). Generate a similar style image of {角色英文名} from {游戏英文名} sitting casually in front of a bold graffiti wall. {角色名} is seated in a relaxed but confident posture, {具体坐姿描述如"leaning back against the graffiti wall with one knee raised, her other leg stretched out casually"}, with her body language calm, controlled, and slightly provocative. Her expression should show cold, disdainful eyes, aloof, sharp, and superior, as if she is silently judging the viewer.
@@ -327,9 +350,27 @@ The graffiti wall behind her should be vivid and layered, full of expressive abs
 Use a wide cinematic framing suitable for a 16:9 wallpaper, with {角色名} as the main focal point while still showing enough of the graffiti wall and surrounding environment for atmosphere. The mood should feel cool, stylish, intimidating, and mysterious. Highly detailed background, rich shadows, {角色主题色} glowing highlights, sharp focus on {角色名}, and a refined high-end anime illustration look.
 ```
 
-**负面提示词追加项**（在常规 negative prompt 基础上**必须额外追加**以下内容）：
+**完整 prompt 模板（男版，男性角色专用，配 `needful1-man.png`）**：
+
+```
+Refer to the attached reference image (Figure 1) for composition, graffiti-wall style, and overall atmosphere only. Generate an image of {角色英文名}, a young man from {游戏英文名}, sitting casually in front of a bold graffiti wall. {角色名} is male — do not render him with feminine features or attire. {角色名} is seated in a relaxed but dominant posture, {具体坐姿描述如"one knee raised with his forearm resting on it, his other leg stretched out casually"}, with his body language calm, controlled, and quietly provocative. His expression should show cold, disdainful eyes, aloof, sharp, and superior, as if he is silently judging the viewer.
+
+Keep {角色名}'s recognizable features: {保留角色标志性外貌特征列表}. He has a masculine youthful build with broad shoulders. Blend his canonical design with a modern edgy streetwear aesthetic: {上身服装描述 — 宽松T恤/背心+敞开夹克或印花衬衫}, {下身服装描述 — 工装裤/破洞牛仔裤/宽松短裤}, {鞋履描述}, {潮流配饰描述}. Preserve his identity while giving him a fresh urban street-style look.
+
+The graffiti wall behind him should be vivid and layered, full of expressive abstract shapes and energetic street-art textures in {角色主题色} tones, with graffiti elements including {角色名涂鸦字体}, {元素符号涂鸦}, {主题图案涂鸦}, creating a rebellious urban backdrop that resonates with his character theme. Add subtle {角色元素名} energy effects, {角色主题特效}, and {角色标志性小道具} around him to reinforce his identity.
+
+Use a wide cinematic framing suitable for a 16:9 wallpaper, with {角色名} as the main focal point while still showing enough of the graffiti wall and surrounding environment for atmosphere. The mood should feel cool, stylish, intimidating, and mysterious. Highly detailed background, rich shadows, {角色主题色} glowing highlights, sharp focus on {角色名}, and a refined high-end anime illustration look.
+```
+
+**负面提示词追加项**（在常规 negative prompt 基础上**必须额外追加**以下内容，按性别二选一）：
+
+女版追加：
 
 `standing, standing pose, upright posture, singing, open mouth singing, warm smile, gentle smile, cheerful expression, cute expression, adorable, sweet, innocent, game canonical outfit, official costume, fantasy dress, medieval clothing, armor, full gown, formal dress, beach background, ocean background, nature background, indoor background, plain background, minimal background, missing graffiti wall, low detail graffiti, generic graffiti, wrong graffiti colors, wrong streetwear, missing crop top, missing jacket, missing shorts, missing skirt, long dress, full pants, business suit, school uniform`
+
+男版追加：
+
+`standing, standing pose, upright posture, singing, open mouth singing, warm smile, gentle smile, cheerful expression, cute expression, adorable, sweet, innocent, game canonical outfit, official costume, fantasy dress, medieval clothing, armor, full gown, formal dress, beach background, ocean background, nature background, indoor background, plain background, minimal background, missing graffiti wall, low detail graffiti, generic graffiti, wrong graffiti colors, wrong streetwear, missing jacket, long dress, business suit, school uniform, feminine, androgynous, female body, curvy figure, skirt, crop top, tube top, fishnet, thigh strap, makeup, lipstick, slender feminine figure`
 
 ---
 
@@ -576,7 +617,9 @@ Refer to the attached reference image (Figure 2). Generate a cinematic close-up 
 
 ```
 {workspace}/
-├── needful.png                          # 涂鸦墙模板参考图（全局共享）
+├── needful1-woman.png                   # 涂鸦墙模板参考图·女版（全局共享）
+├── needful1-man.png                     # 涂鸦墙模板参考图·男版（全局共享）
+├── needful2.png                         # 特写肖像模板参考图（全局共享）
 ├── 原神/{角色名}/
 │   ├── prompts.md                       # 类型 A
 │   ├── titles.md                        # 视频发布文案
