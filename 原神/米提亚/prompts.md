@@ -44,6 +44,16 @@ low quality, worst quality, blurry, pixelated, bad anatomy, extra limbs, bad han
 
 ---
 
+## 2b — 特写肖像·手机竖屏版（9:16 · 胸部及以上取景）
+
+Positive Prompt:
+9:16 vertical mobile wallpaper, cinematic close-up portrait of Metia from Genshin Impact. Chest-up framing, his face as the focal point of the tall composition, no full body. He holds an antique brass pocket watch engraved with constellation patterns close to the right side of his face, the watch on its delicate chain dangling between his fingers, partially obscuring his right eye. His visible left eye gazes directly at the viewer — simultaneously tender and distant, the look of someone who has rewound the same memory a hundred times and already knows exactly how it ends. Expression: a faint melancholic warmth that never reaches relief, as if he finds the watch's ticking comforting and cruel in equal measure. Dramatic single-source lighting from the upper left casts deep chiaroscuro across his features, the brass watch glowing warm gold where the light catches its engraved stars, a faint violet Electro spark flickering along the chain. His fair skin contrasts sharply against a pure black background. His signature silver-white wavy hair with lavender sheen spills softly across the left side of the frame; the golden astrolabe-style brooch at his collar catches a single sharp highlight, his navy-violet coat collar only barely visible at the bottom edge. A scientist who can rebuild any memory from starlight, yet cannot rewind the one he lost. perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, fingers elegantly holding the watch chain.
+
+Negative Prompt:
+low quality, worst quality, blurry, pixelated, bad anatomy, extra limbs, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, full body shot, wide shot, lower body, legs, feet, landscape, multiple subjects, busy background, bright cheerful lighting, outdoor scene, action pose, weapon drawn, standing, chibi, female, wrong gender, wrong hair color, wrong eye color, text, watermark, logo, signature.
+
+---
+
 # 人物设定
 
 ## 3 — 星象塔观星台·至冬星夜（身份/阵营场景）
@@ -142,7 +152,7 @@ low quality, worst quality, blurry, pixelated, bad anatomy, extra limbs, bad han
 
 ---
 
-# 动漫风格 — 2D 日漫简约背景系列
+# 动漫风格 — 2D 日漫简约场景背景系列
 
 ## 9 — 手机竖屏壁纸（9:16）
 
@@ -151,10 +161,10 @@ Positive Prompt:
 
 Full-body centered composition of Metia standing serenely, facing the viewer with a calm gentle gaze, his signature short wavy silver-white hair with soft lavender sheen, tousled layers, long asymmetric bangs, violet-purple eyes, fair skin, slender elegant young male figure. He wears his canonical outfit: deep navy-violet formal tailcoat with wide blue-violet gold-embroidered collar, dark vest over a white high-collar shirt, golden astrolabe-style brooch with a blue gem, gold ring epaulettes, teal tassel ornaments at shoulder and hip, dark tailored trousers. His hands are relaxed at his sides. perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose.
 
-Simple plain background, minimal flat single-tone backdrop with subtle gradient in deep violet fading to pale lavender at the bottom, a few tiny golden star particles drifting near his shoulders, soft even lighting with a gentle violet rim light. Clean, quiet, elegant.
+Simple anime scenery background, clean minimal scene composition, Ghibli-inspired soft background, flat background with simple shapes and soft colors: a quiet violet night scene — a gentle hilltop horizon line drawn with a few simple strokes in the lower quarter of the frame, a vast soft deep-violet sky fading to pale lavender near the horizon, two or three thin pale clouds and sparse tiny golden stars, a few golden star particles drifting near his shoulders. Soft atmospheric light, gentle even lighting with a gentle violet rim light. Clean, quiet, elegant.
 
 Negative Prompt:
-low quality, worst quality, blurry, pixelated, bad anatomy, extra limbs, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, 3D render, semi-realistic, realistic, painterly, thick oil paint, game 3D model, complex background, detailed scenery, cluttered background, architecture, busy props, heavy details, wrong hair color, wrong eye color, female, wrong gender, text, watermark, logo, signature.
+low quality, worst quality, blurry, pixelated, bad anatomy, extra limbs, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, 3D render, semi-realistic, realistic, painterly, thick oil paint, game 3D model, complex background, cluttered background, multiple overlapping scenes, busy props, heavy details, photorealistic background, wrong hair color, wrong eye color, female, wrong gender, text, watermark, logo, signature.
 
 ## 10 — 电脑桌面壁纸（16:9）
 
@@ -163,10 +173,10 @@ Positive Prompt:
 
 Metia standing on the right third of the frame in three-quarter view, looking back over his shoulder toward the viewer with a faint serene smile, leaving generous negative space on the left filled only by drifting golden star particles. His signature short wavy silver-white hair with soft lavender sheen, tousled layers, long asymmetric bangs, violet-purple eyes, fair skin, slender elegant young male figure. Same canonical outfit: deep navy-violet formal tailcoat with wide blue-violet gold-embroidered collar, dark vest, white high-collar shirt, golden astrolabe-style brooch, gold ring epaulettes, teal tassel ornaments, dark tailored trousers. One hand raised to his collar, fingertips lightly touching the astrolabe brooch. perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose.
 
-Simple plain background, minimal flat single-tone backdrop with subtle gradient in deep navy-violet, slightly deeper than the series' mobile version, a thin horizontal arc of golden constellation line crossing the empty space, soft even lighting with gentle violet rim light. Series-consistent with the 9:16 version.
+Simple anime scenery background, clean minimal scene composition, Ghibli-inspired soft background, flat background with simple shapes and soft colors: a soft twilight sky in deep navy-violet slightly deeper than the series' mobile version, two thin elongated clouds drifting across the upper frame, the faint silhouette line of low distant hills along the bottom edge, a thin horizontal arc of golden constellation line crossing the empty space on the left. Soft atmospheric light, gentle even lighting with gentle violet rim light. Series-consistent with the 9:16 version.
 
 Negative Prompt:
-low quality, worst quality, blurry, pixelated, bad anatomy, extra limbs, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, 3D render, semi-realistic, realistic, painterly, thick oil paint, game 3D model, complex background, detailed scenery, cluttered background, architecture, busy props, heavy details, wrong hair color, wrong eye color, female, wrong gender, text, watermark, logo, signature.
+low quality, worst quality, blurry, pixelated, bad anatomy, extra limbs, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, 3D render, semi-realistic, realistic, painterly, thick oil paint, game 3D model, complex background, cluttered background, multiple overlapping scenes, busy props, heavy details, photorealistic background, wrong hair color, wrong eye color, female, wrong gender, text, watermark, logo, signature.
 
 ## 11 — iPad 平板壁纸（4:3）
 
@@ -175,10 +185,10 @@ Positive Prompt:
 
 Upper-body centered composition of Metia, head and chest in frame, facing the viewer with calm violet-purple eyes and a soft scholarly smile, chin slightly tilted. His signature short wavy silver-white hair with soft lavender sheen, tousled layers, long asymmetric bangs, fair skin. Same canonical outfit details visible at the collar and shoulders: deep navy-violet tailcoat with wide blue-violet gold-embroidered collar, white high-collar shirt, golden astrolabe-style brooch with a blue gem, gold ring epaulettes. Arms not visible in the tight framing.
 
-Simple plain background, minimal flat single-tone backdrop with subtle gradient in soft lavender-grey, a few golden star particles scattered sparsely, soft even lighting with a faint violet rim light along his hair. Series-consistent coloring and simplicity with the rest of the set.
+Simple anime scenery background, clean minimal scene composition, Ghibli-inspired soft background, flat background with simple shapes and soft colors: a calm evening sky in soft lavender-grey behind him, one or two small rounded clouds with softly lit edges, a few golden star particles scattered sparsely. Soft atmospheric light, gentle even lighting with a faint violet rim light along his hair. Series-consistent coloring and simplicity with the rest of the set.
 
 Negative Prompt:
-low quality, worst quality, blurry, pixelated, bad anatomy, extra limbs, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, 3D render, semi-realistic, realistic, painterly, thick oil paint, game 3D model, complex background, detailed scenery, cluttered background, architecture, busy props, heavy details, wrong hair color, wrong eye color, female, wrong gender, text, watermark, logo, signature.
+low quality, worst quality, blurry, pixelated, bad anatomy, extra limbs, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, 3D render, semi-realistic, realistic, painterly, thick oil paint, game 3D model, complex background, cluttered background, multiple overlapping scenes, busy props, heavy details, photorealistic background, wrong hair color, wrong eye color, female, wrong gender, text, watermark, logo, signature.
 
 ## 12 — 阔折叠屏壁纸（√2:1 展开态）
 
@@ -187,10 +197,10 @@ Positive Prompt:
 
 Horizontal minimalist composition: Metia standing at the far right of the wide frame in full-body side profile, walking forward with a calm posture, one hand loosely holding a closed brass star-chart folder at his side, his silver-white wavy hair with lavender sheen catching a soft light edge, violet-purple eyes gazing ahead, canonical deep navy-violet tailcoat with gold-embroidered blue-violet collar, dark vest, white high-collar shirt, golden astrolabe brooch, gold ring epaulettes, teal tassel ornaments, dark tailored trousers. perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose.
 
-The remaining four-fifths of the frame is pure minimalist negative space: a flat gradient from deep violet at the right to palest lavender at the left, a single delicate golden constellation arc sweeping across the emptiness with two or three tiny glowing star nodes, subtle drifting star particles. Soft even lighting, gentle violet rim light. Series-consistent with the other three proportions.
+The remaining four-fifths of the frame is a wide simple scene: a flat pale lavender dawn meadow horizon line running low across the frame — soft lavender sky deepening to deep violet at the right edge, one or two thin horizontal clouds with softly lit edges, sparse short grass strokes suggested with a few simple lines along the horizon, a single delicate golden constellation arc sweeping across the emptiness with two or three tiny glowing star nodes, subtle drifting star particles. Soft atmospheric light, gentle even lighting, gentle violet rim light. Series-consistent with the other three proportions.
 
 Negative Prompt:
-low quality, worst quality, blurry, pixelated, bad anatomy, extra limbs, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, 3D render, semi-realistic, realistic, painterly, thick oil paint, game 3D model, complex background, detailed scenery, cluttered background, architecture, busy props, heavy details, wrong hair color, wrong eye color, female, wrong gender, text, watermark, logo, signature.
+low quality, worst quality, blurry, pixelated, bad anatomy, extra limbs, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, 3D render, semi-realistic, realistic, painterly, thick oil paint, game 3D model, complex background, cluttered background, multiple overlapping scenes, busy props, heavy details, photorealistic background, wrong hair color, wrong eye color, female, wrong gender, text, watermark, logo, signature.
 
 ---
 
