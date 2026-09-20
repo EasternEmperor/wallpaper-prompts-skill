@@ -152,7 +152,7 @@ description: 米哈游游戏角色壁纸 AI 生图 prompts 每日生成工具。
 ### 通用规范（适用所有类型）
 
 **Positive Prompt 必含项**：
-- 画面比例与用途（如 `16:9 2K wallpaper`、`9:16 mobile wallpaper`、`4:3 tablet wallpaper`、`√2:1 foldable wallpaper`、`1:1 表情包`）
+- 画面比例与用途（如 `16:9 2K wallpaper`、`20:9 mobile wallpaper`、`4:3 tablet wallpaper`、`√2:1 foldable wallpaper`、`1:1 表情包`）
 - 角色全名与出处（如 `Odette from Genshin Impact`）
 - 画风描述（`highly detailed anime-style illustration` / `3D cel-shaded` / `cute chibi` 等）
 - 人物外貌特征（发色发型、瞳色、标志性配饰，必须准确）
@@ -195,13 +195,13 @@ AI 生图最常见的问题就是手部画错（多指、少指、融合指、�
 | 段落 | 数量 | 说明 |
 |------|------|------|
 | 必需·涂鸦墙街头风 | 1 | **先判定角色性别**：女引用 `../../needful1-woman.png`，男引用 `../../needful1-man.png`；现代街头服饰 + 涂鸦墙，冷漠/不屑表情 |
-| 必需·特写肖像 | 2 | 16:9 横版 + 9:16 手机竖屏版（竖版为胸部及以上或半身构图，不出全身）；引用 `../../needful2.png`，道具半遮面 + 矛盾表情 + 单光源暗背景，见下方「必需2 — 角色特写肖像」公式 |
+| 必需·特写肖像 | 2 | 16:9 横版 + 20:9 手机竖屏版（竖版为胸部及以上或半身构图，不出全身）；引用 `../../needful2.png`，道具半遮面 + 矛盾表情 + 单光源暗背景，见下方「必需2 — 角色特写肖像」公式 |
 | 角色设定场景 | 2 | 忠于游戏世界观的经典场景（剧情、日常、标志性地点） |
 | 现代风改造 | 1~2 | 御姐/可爱/赛博朋克/学院风等现代服饰改造 |
 | 动态/战斗场景 | 1 | 元素技能释放、战斗动作、动态构图 |
 | 情感/日常/反差 | 1 | 温馨日常、反差萌、私人时刻 |
 | 热点主题特别版 | 0~1 | 结合当天时事（节日/赛事/纪念日），如无则省略 |
-| 动漫风格 | 4 | 2D 日漫风 + 简约场景背景（线条简单、元素少不堆叠，参考吉卜力风格），四比例系列（手机 9:16 / 电脑 16:9 / iPad 4:3 / 阔折叠 √2:1），见下方「动漫风格 — 2D 日漫简约背景系列」 |
+| 动漫风格 | 4 | 2D 日漫风 + 简约场景背景（线条简单、元素少不堆叠，参考吉卜力风格），四比例系列（手机 20:9 / 电脑 16:9 / iPad 4:3 / 阔折叠 √2:1），见下方「动漫风格 — 2D 日漫简约背景系列」 |
 | 跨领域参考图 | 1~2 | 基于角色职业对应的真实世界素材（照片/名画/海报） |
 
 **参考图下载（必须在写 prompts 之前完成）**：
@@ -376,7 +376,7 @@ Use a wide cinematic framing suitable for a 16:9 wallpaper, with {角色名} as 
 
 #### 必需2 — 角色特写肖像 (Close-up Portrait)
 
-每个类型 A 角色单人壁纸合集**必须包含一组两条**特写肖像 prompt（16:9 横版 + 9:16 手机竖屏版，两条共用同一套五步公式设定）。这类壁纸的核心价值在于：用一个极简画面承载角色最深的叙事内核——不是展示角色"在做什么"，而是揭示角色"是什么"。
+每个类型 A 角色单人壁纸合集**必须包含一组两条**特写肖像 prompt（16:9 横版 + 20:9 手机竖屏版，两条共用同一套五步公式设定）。这类壁纸的核心价值在于：用一个极简画面承载角色最深的叙事内核——不是展示角色"在做什么"，而是揭示角色"是什么"。
 
 **参考图**：`![alt text](../../needful2.png)`（阿蕾奇诺手持玫瑰半遮面特写肖像，全局共享，位于工作区根目录）
 
@@ -433,10 +433,10 @@ Refer to the attached reference image (Figure 2). Generate a cinematic close-up 
 
 **手机竖屏变体（必须同步产出，与 16:9 横版成对）**：
 
-特写肖像除 16:9 横版外，必须额外生成一条 9:16 手机竖屏壁纸版，要求：
+特写肖像除 16:9 横版外，必须额外生成一条 20:9 手机竖屏壁纸版，要求：
 
 - 构图收紧为**胸部及以上（chest-up）或半身（waist-up）**，人物面部为画面焦点，不出现全身
-- 比例标注用 `9:16 vertical mobile wallpaper`
+- 比例标注用 `20:9 vertical mobile wallpaper`
 - 五步公式（道具选择、道具半遮眼、矛盾表情、叙事性总结句、单光源 + 纯黑背景）与 16:9 横版**完全一致**，仅调整取景范围
 - negative prompt 在横版基础上保留 `full body shot, wide shot` 并追加 `lower body, legs, feet` 排除下半身
 
@@ -450,7 +450,7 @@ Refer to the attached reference image (Figure 2). Generate a cinematic close-up 
 
 | 张数 | 用途 | 画面比例标注 |
 |------|------|-------------|
-| 1 | 手机壁纸 | `9:16 vertical mobile wallpaper` |
+| 1 | 手机壁纸 | `20:9 vertical mobile wallpaper` |
 | 2 | 电脑壁纸 | `16:9 desktop wallpaper` |
 | 3 | iPad 壁纸 | `4:3 tablet wallpaper` |
 | 4 | 阔折叠手机（展开态） | `√2:1 (1.414:1) foldable phone unfolded wallpaper` |
@@ -459,7 +459,7 @@ Refer to the attached reference image (Figure 2). Generate a cinematic close-up 
 
 1. **2D 日漫风人物**：positive prompt 必含 `2D Japanese anime style, flat cel shading, clean thin lineart, soft anime coloring, Japanese anime aesthetic`；人物绘制走扁平赛璐璐、细线条、柔和上色的路线，不走 3D 渲染、半写实、厚涂路线
 2. **简约场景背景**：positive prompt 必含 `simple anime scenery background, clean minimal scene composition, Ghibli-inspired soft background, flat background with simple shapes and soft colors`——背景为单一简单场景（如一片天空与云、一片草地、一条小径、远山与水面、星空），线条简单、透视平缓、元素少不堆叠；不出现复杂建筑群、多场景叠加或道具堆砌，最多允许少量点缀元素（如漂浮元素色光点/雪花/花瓣）；背景主色与角色主题色呼应（如冰角色→淡蓝白、火角色→米橙）
-3. **构图随比例调整**：9:16 竖版用半身或全身居中构图；16:9 横版让人物站于画面一侧留白呼吸感；4:3 用居中半身；√2:1 用横向极简留白构图
+3. **构图随比例调整**：20:9 竖版用半身或全身居中构图；16:9 横版让人物站于画面一侧留白呼吸感；4:3 用居中半身；√2:1 用横向极简留白构图
 4. **系列一致性**：四条 prompt 共用同一套人物外貌/服装描述与同一背景场景基调及配色方案，仅微调姿势、构图与背景场景元素的疏密/色调深浅形成系列变化，画风、配色、简约度必须统一
 
 **Prompt 要点**：

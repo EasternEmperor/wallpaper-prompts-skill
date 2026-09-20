@@ -49,7 +49,7 @@ Negative Prompt: {排除项}
 
 ## {N+2}（手机竖屏壁纸）
 ![alt text]({参考图文件名})
-{9:16 2K 手机壁纸适配 prompt}
+{20:9 2K 手机壁纸适配 prompt}
 
 Negative Prompt: {排除项}
 
