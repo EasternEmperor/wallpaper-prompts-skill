@@ -170,7 +170,7 @@ description: 米哈游游戏角色壁纸 AI 生图 prompts 每日生成工具。
 ### 通用规范（适用所有类型）
 
 **Positive Prompt 必含项**：
-- 画面比例与用途（如 `16:9 2K wallpaper`、`20:9 mobile wallpaper`、`4:3 tablet wallpaper`、`√2:1 foldable wallpaper`、`1:1 表情包`）
+- 画面比例与用途（如 `16:9 2K wallpaper`、`9:20 mobile wallpaper`、`4:3 tablet wallpaper`、`√2:1 foldable wallpaper`、`1:1 表情包`）
 - 角色全名与出处（如 `Odette from Genshin Impact`）
 - 画风描述（`highly detailed anime-style illustration` / `3D cel-shaded` / `cute chibi` 等）
 - 人物外貌特征（发色发型、瞳色、标志性配饰，必须准确）
@@ -198,9 +198,22 @@ AI 生图最常见的问题就是手部画错（多指、少指、融合指、�
    在人物动作描述中必须明确手部姿态（如 `hands relaxed at sides`、`arms crossed, hands tucked`），避免让 AI 自由发挥导致画崩。
 
 3. **构图规避策略**（从源头降低风险）：
-   - 优先选择手部简单或被遮挡的姿态：`hands in pockets`、`arms crossed`、`hands behind back`、`holding a large object that covers hands`
-   - 避免高风险构图：手指交互复杂物体（手指夹持小卡片、手指按乐器琴弦）、手指伸展且为画面焦点
-   - 如必须使用高风险手势（如"伸出手邀舞"），需在 positive prompt 中额外强调 `fingers elegantly relaxed, natural hand pose`
+- 优先选择手部简单或被遮挡的姿态：`hands in pockets`、`arms crossed`、`hands behind back`、`holding a large object that covers hands`
+- 避免高风险构图：手指交互复杂物体（手指夹持小卡片、手指按乐器琴弦）、手指伸展且为画面焦点
+- 如必须使用高风险手势（如"伸出手邀舞"），需在 positive prompt 中额外强调 `fingers elegantly relaxed, natural hand pose`
+
+**腿部/坐姿质量优化（必须执行，与手部同级）**：
+
+坐姿是仅次于手部的第二画崩高发区（大腿根与髋部衔接断裂、双膝朝向矛盾、小腿拉长扭曲）：
+
+1. **禁用高危姿势写法**：跷二郎腿（`one leg crossed over the other` / `legs crossed`）、单脚钩栏杆（`one heel hooked on the lower bar`）、双臂后撑侧转身的复合坐姿——这些组合极易导致髋关节解剖崩坏。
+
+2. **安全坐姿写法**（三选一）：侧坐双腿同侧（`sitting side-saddle, both knees together and pointing in the same direction, calves hanging down side by side in natural parallel alignment`）；正坐双膝并拢（`sitting upright, knees together, feet flat on the ground`）；或直接改站立（`standing, weight on one leg, natural stance`）。
+
+3. **Negative Prompt 腿部穷举**（每条必含，接在手部穷举之后）：
+`twisted legs, rotated hips, dislocated hip, extra legs, third leg, fused legs, malformed knees, knees bending in opposite directions, unnatural sitting pose, disproportionate limbs, elongated calves, deformed feet`
+
+4. **Positive 解剖锚定**（坐姿/腿部可见时必含）：`correct hip-to-thigh-to-knee anatomy, natural leg proportions, both legs in natural parallel alignment, natural seated posture`
 
 ---
 
@@ -213,13 +226,12 @@ AI 生图最常见的问题就是手部画错（多指、少指、融合指、�
 | 段落 | 数量 | 说明 |
 |------|------|------|
 | 必需·涂鸦墙街头风 | 1 | **先判定角色性别**：女引用 `../../needful1-woman.png`，男引用 `../../needful1-man.png`；现代街头服饰 + 涂鸦墙，冷漠/不屑表情 |
-| 必需·特写肖像 | 2 | 16:9 横版 + 20:9 手机竖屏版（竖版为胸部及以上或半身构图，不出全身）；引用 `../../needful2.png`，道具半遮面 + 矛盾表情 + 单光源暗背景，见下方「必需2 — 角色特写肖像」公式 |
+| 必需·特写肖像 | 2 | 16:9 横版 + 9:20 手机竖屏版（竖版为胸部及以上或半身构图，不出全身）；引用 `../../needful2.png`，道具半遮面 + 矛盾表情 + 单光源暗背景，见下方「必需2 — 角色特写肖像」公式 |
 | 角色设定场景 | 2 | 忠于游戏世界观的经典场景（剧情、日常、标志性地点） |
 | 现代风改造 | 1~2 | 御姐/可爱/赛博朋克/学院风等现代服饰改造 |
-| 动态/战斗场景 | 1 | 元素技能释放、战斗动作、动态构图 |
 | 情感/日常/反差 | 1 | 温馨日常、反差萌、私人时刻 |
 | 热点主题特别版 | 0~1 | 结合当天时事（节日/赛事/纪念日），如无则省略 |
-| 动漫风格 | 4 | 2D 日漫风 + 简约场景背景（线条简单、元素少不堆叠，参考吉卜力风格），四比例系列（手机 20:9 / 电脑 16:9 / iPad 4:3 / 阔折叠 √2:1），见下方「动漫风格 — 2D 日漫简约背景系列」 |
+| 动漫性感风 | 4 | 2D 日漫风 + 性感妩媚服装三型分配 + 简约朴素场景背景，四比例系列（手机 9:20 / 电脑 16:9 / iPad 4:3 / 阔折叠 √2:1），见下方「动漫性感风 — 2D 日漫简约背景系列」 |
 | 跨领域参考图 | 1~2 | 基于角色职业对应的真实世界素材（照片/名画/海报） |
 
 **参考图下载（必须在写 prompts 之前完成）**：
@@ -394,7 +406,7 @@ Use a wide cinematic framing suitable for a 16:9 wallpaper, with {角色名} as 
 
 #### 必需2 — 角色特写肖像 (Close-up Portrait)
 
-每个类型 A 角色单人壁纸合集**必须包含一组两条**特写肖像 prompt（16:9 横版 + 20:9 手机竖屏版，两条共用同一套五步公式设定）。这类壁纸的核心价值在于：用一个极简画面承载角色最深的叙事内核——不是展示角色"在做什么"，而是揭示角色"是什么"。
+每个类型 A 角色单人壁纸合集**必须包含一组两条**特写肖像 prompt（16:9 横版 + 9:20 手机竖屏版，两条共用同一套五步公式设定）。这类壁纸的核心价值在于：用一个极简画面承载角色最深的叙事内核——不是展示角色"在做什么"，而是揭示角色"是什么"。
 
 **参考图**：`![alt text](../../needful2.png)`（阿蕾奇诺手持玫瑰半遮面特写肖像，全局共享，位于工作区根目录）
 
@@ -451,45 +463,47 @@ Refer to the attached reference image (Figure 2). Generate a cinematic close-up 
 
 **手机竖屏变体（必须同步产出，与 16:9 横版成对）**：
 
-特写肖像除 16:9 横版外，必须额外生成一条 20:9 手机竖屏壁纸版，要求：
+特写肖像除 16:9 横版外，必须额外生成一条 9:20 手机竖屏壁纸版，要求：
 
 - 构图收紧为**胸部及以上（chest-up）或半身（waist-up）**，人物面部为画面焦点，不出现全身
-- 比例标注用 `20:9 vertical mobile wallpaper`
+- 比例标注用 `9:20 vertical mobile wallpaper`
 - 五步公式（道具选择、道具半遮眼、矛盾表情、叙事性总结句、单光源 + 纯黑背景）与 16:9 横版**完全一致**，仅调整取景范围
 - negative prompt 在横版基础上保留 `full body shot, wide shot` 并追加 `lower body, legs, feet` 排除下半身
 
 ---
 
-#### 动漫风格 — 2D 日漫简约背景系列
+#### 动漫性感风 — 2D 日漫简约背景系列
 
-每个类型 A 角色单人壁纸合集**固定包含 4 条**动漫风格 prompts。这类壁纸的核心是：**人物绘制更偏向 2D 日漫风格，背景为简约的日漫场景**——有场景感但线条简单、场景元素少不堆叠，可参考吉卜力式的柔和天空、草地、远山、水面等单一场景，同一角色同一画风形成一套四比例壁纸系列，覆盖手机、电脑、平板、阔折叠屏四种设备。
+每个类型 A 角色单人壁纸合集**固定包含 4 条**动漫性感风 prompts。这类壁纸的核心是：**人物绘制为 2D 日漫风格、着装为性感妩媚向（服装三型），背景为简约朴素的日漫场景**——有场景感但线条简单、元素少不堆叠，同一角色同一画风形成一套四比例壁纸系列，覆盖手机、电脑、平板、阔折叠屏四种设备。
 
 **四张固定比例（不可增减、不可替换）**：
 
 | 张数 | 用途 | 画面比例标注 |
 |------|------|-------------|
-| 1 | 手机壁纸 | `20:9 vertical mobile wallpaper` |
+| 1 | 手机壁纸 | `9:20 vertical mobile wallpaper` |
 | 2 | 电脑壁纸 | `16:9 desktop wallpaper` |
 | 3 | iPad 壁纸 | `4:3 tablet wallpaper` |
 | 4 | 阔折叠手机（展开态） | `√2:1 (1.414:1) foldable phone unfolded wallpaper` |
 
-**画风核心约束（必须全部满足）**：
+**画风与风格核心约束（必须全部满足）**：
 
 1. **2D 日漫风人物**：positive prompt 必含 `2D Japanese anime style, flat cel shading, clean thin lineart, soft anime coloring, Japanese anime aesthetic`；人物绘制走扁平赛璐璐、细线条、柔和上色的路线，不走 3D 渲染、半写实、厚涂路线
-2. **简约场景背景**：positive prompt 必含 `simple anime scenery background, clean minimal scene composition, Ghibli-inspired soft background, flat background with simple shapes and soft colors`——背景为单一简单场景（如一片天空与云、一片草地、一条小径、远山与水面、星空），线条简单、透视平缓、元素少不堆叠；不出现复杂建筑群、多场景叠加或道具堆砌，最多允许少量点缀元素（如漂浮元素色光点/雪花/花瓣）；背景主色与角色主题色呼应（如冰角色→淡蓝白、火角色→米橙）
-3. **构图随比例调整**：20:9 竖版用半身或全身居中构图；16:9 横版让人物站于画面一侧留白呼吸感；4:3 用居中半身；√2:1 用横向极简留白构图
-4. **系列一致性**：四条 prompt 共用同一套人物外貌/服装描述与同一背景场景基调及配色方案，仅微调姿势、构图与背景场景元素的疏密/色调深浅形成系列变化，画风、配色、简约度必须统一
+2. **性感妩媚服装三型**（按角色气质选一，四条共用同一套服装）：泳装系（比基尼式连体/分体+透纱罩衫）、JK 系（短款衬衫+领结+百褶裙）、活力系（露脐短上衣/吊带+短裙/短裤）；男性角色做性别化处理（敞开花衬衫+沙滩裤等），不强制泳装
+3. **尺度红线（写死，不可放宽）**：仅限成年角色；姿态优雅不露点；positive 统一含 `tasteful and elegant throughout, no explicit content`；negative 统一追加 `nude, topless, nipples, areola, explicit, childlike, loli, underage`
+4. **简约朴素场景背景**：positive prompt 必含 `simple anime scenery background, clean minimal scene composition, Ghibli-inspired soft background, flat background with simple shapes and soft colors`——背景为单一简单场景（如一片天空与云、一片草地、远山与水面、星空），线条简单、透视平缓、元素少不堆叠；不出现复杂建筑群、多场景叠加、道具堆砌，也不出现武器交战与打斗场面；背景主色与角色主题色呼应（如冰角色→淡蓝白、火角色→米橙）
+5. **构图随比例调整**：9:20 竖版用半身或全身居中构图；16:9 横版让人物站于画面一侧留白呼吸感；4:3 用居中半身；√2:1 用横向极简留白构图
+6. **系列一致性**：四条 prompt 共用同一套人物外貌/服装描述、同一背景场景及配色方案，仅微调姿势、构图与背景元素的疏密/色调深浅形成系列变化，画风、配色、简约度必须统一
 
 **Prompt 要点**：
 
-- 人物姿势简单干净：`standing with hands relaxed at sides`、`arms crossed`、`looking back over shoulder` 等，避免复杂手指交互
-- 表情可随系列微调（平静/淡笑/回眸/闭眼），但气质统一
-- 光影简洁柔和：`soft even lighting, gentle rim light in {角色主题色}`，场景背景用柔和大气光（`soft atmospheric light`）与人物光统一，避免复杂戏剧光
-- 保留手部规范：手部可见时写明五指，negative prompt 保持通用手部穷举
+- 人物姿势简单干净且复用安全姿势写法：站立（`standing with hands relaxed at sides`、`weight on one hip, natural stance`）或坐姿按「腿部/坐姿质量优化」章节的安全写法（侧坐双腿同侧/正坐双膝并拢），禁用跷二郎腿与单脚钩栏杆；姿态妩媚自然
+- 表情随系列微调（平静/淡笑/回眸/闭眼），气质统一为妩媚自信或温柔慵懒
+- 光影简洁柔和：`soft even lighting, gentle rim light in {角色主题色}`，场景背景光与人物光统一，避免复杂戏剧光
+- 保留手部与腿部规范：手部可见时写明五指，negative 保持通用手部穷举 + 腿部穷举
 
-**负面提示词追加项**（在通用手部穷举与画质排除基础上**必须额外追加**）：
+**负面提示词追加项**（在通用手部/腿部穷举与画质排除基础上**必须额外追加**）：
 
-`3D render, semi-realistic, realistic, painterly, thick oil paint, game 3D model, complex background, cluttered background, multiple overlapping scenes, busy props, heavy details, photorealistic background`
+`3D render, semi-realistic, realistic, painterly, thick oil paint, game 3D model, complex background, cluttered background, multiple overlapping scenes, busy props, heavy details, photorealistic background, weapon combat, fighting, blood, gore, nude, topless, nipples, areola, explicit, childlike, loli, underage`
 
 ---
 
@@ -501,9 +515,17 @@ Refer to the attached reference image (Figure 2). Generate a cinematic close-up 
 
 **结构**：
 - 文件头注明主题名称、热点背景
+- **统一画面比例：3:4 竖版长宽比**（prompt 中标注 `3:4 vertical portrait wallpaper`），主题内所有 prompts 比例一致，不混用其他比例
 - 需要一张主题风格的参考图（第一张生成的图可作为后续角色的风格参考）
 - 每个角色一个 `##` 段落，包含：角色名 + 该主题下的完整 prompt
 - 所有角色的服装/场景/构图需保持主题一致性，仅改变角色外貌特征和配色
+
+**人物风格规范（必须执行）**：
+
+1. **服装三型，按角色气质分配**（主题内混搭避免同质化）：泳装系（比基尼式连体/分体+透纱罩衫/纱巾，如夜兰黑金吊带连体+透纱）；JK 系（短款衬衫+领结+百褶裙，如妮露白衬衫+淡蓝百褶裙）；活力系（露脐短上衣/吊带+短裙/短裤，如 11号露脐背心+战术短裤）
+2. **尺度红线（写死，不可放宽）**：仅限成年角色；姿态优雅不露点；positive 统一含 `tasteful and elegant throughout, no explicit content`；negative 统一追加 `nude, topless, nipples, areola, explicit, childlike, loli, underage`
+3. **统一视觉母题**：每个主题自定一个贯穿全组的背景母题与主色调（如中秋=巨大满月悬于人物背后+冷银月色+角色主题色点缀），保证成套感
+4. **男性角色适配**：不强制泳装，做性别化处理（敞开花衬衫+沙滩裤、休闲西短裤等），构图与母题不变
 
 **Prompt 要点**：
 - 第一个角色的 prompt 最详细（定义整体风格基调）
