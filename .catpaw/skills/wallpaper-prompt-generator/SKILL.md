@@ -1,6 +1,6 @@
 ---
 name: wallpaper-prompt-generator
-description: 米哈游游戏角色壁纸 AI 生图 prompts 每日生成工具。根据游戏热点（原神/绝区零/崩铁版本更新、前瞻直播、新角色上线）、社区热度（B站/小红书/米游社）、时事节日、角色人气，自动决策当天要制作哪个角色的壁纸，并生成 12 条左右高质量 prompts（含 positive/negative prompt、背景场景、人物动作描述）。触发词：生成壁纸prompts、今日壁纸、每日壁纸、wallpaper prompts、角色壁纸、游戏壁纸、原神壁纸、绝区零壁纸、崩铁壁纸、米哈游壁纸。
+description: 米哈游游戏角色壁纸 AI 生图 prompts 每日生成工具。根据游戏热点（原神/绝区零/崩铁版本更新、前瞻直播、新角色上线）、社区热度（B站/小红书/米游社）、时事节日、角色人气，自动决策当天要制作哪个角色的壁纸，并生成 12 条左右高质量 prompts（含 positive/negative prompt、背景场景、人物动作描述）。触发词：生成壁纸prompts、今日壁纸、每日壁纸、wallpaper prompts、角色壁纸、游戏壁纸、原神壁纸、绝区零壁纸、崩铁壁纸、米哈游壁纸、签图、抽签壁纸、签文壁纸。注意：签图（类型 F）仅限用户手动触发，每日定时任务不得自动生成。
 ---
 
 # 米哈游游戏角色壁纸 Prompts 每日生成
@@ -617,6 +617,19 @@ Refer to the attached reference image (Figure 2). Generate a cinematic close-up 
 
 ---
 
+### 类型 F：签图系列（仅限用户手动触发）
+
+抽取式签文壁纸合集：一套统一视觉模板（如像素塔罗牌、吉卜力圆窗），每张 = 一个角色 + 一枚签（签名/签位/签语三件套）。
+
+- **触发红线**：只能在用户当次明确指定时生成，**每日定时任务严禁自动产出签图**
+- 默认 9:20 竖版手机壁纸，三游戏均衡分配，角色不与近期签图系列重复
+- 图片内部绝对零文字，签文只写 markdown，后期统一加字
+- 系列统一铁律（三固定一变化）、签文规范、参考图校对、img2img 定稿流程等完整逻辑见 [fortune-slip.md](fortune-slip.md)
+
+**目录**：`主题类型/{签图系列名}/prompts.md`
+
+---
+
 ## 参考图处理（通用）
 
 ### 官方参考图
@@ -684,6 +697,10 @@ Refer to the attached reference image (Figure 2). Generate a cinematic close-up 
 ├── 主题类型/{主题名}/
 │   ├── prompts.md                       # 类型 B
 │   └── titles.md
+├── 主题类型/{签图系列名}/               # 类型 F 签图（仅手动触发）
+│   ├── prompts.md
+│   ├── titles.md
+│   └── refs/                            # 角色参考图
 ├── 动物化/{动物形象}/
 │   ├── {animal}-prompts.md              # 类型 C
 │   └── titles.md
@@ -770,3 +787,5 @@ Prompts 生成完毕后，**必须**额外生成一份 `titles.md` 文件，放�
 本 skill 适合配合 CatPaw automation 设为每日定时任务（如每天早上 9:00），自动执行完整工作流并将 prompts 文件写入工作区。
 
 每日节奏建议：以类型 A（角色单人合集）为主力，穿插类型 B（热点主题）、C（萌化）、D（表情包）、E（梗图）调节节奏。比如一周 7 天可以安排为 A-A-B-A-C-A-D，遇到社区梗爆火时替换为 E。
+
+⚠️ **签图（类型 F）永远不进入自动化范围**：每日定时任务仅限类型 A~E，automation 的 prompt 中不得包含签图生成指令；签图只在用户当次手动指定时生成（详见 [fortune-slip.md](fortune-slip.md) 触发红线）。
