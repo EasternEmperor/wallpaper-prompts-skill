@@ -206,12 +206,12 @@ AI 生图最常见的问题就是手部画错（多指、少指、融合指、�
 
 坐姿是仅次于手部的第二画崩高发区（大腿根与髋部衔接断裂、双膝朝向矛盾、小腿拉长扭曲）：
 
-1. **禁用高危姿势写法**：跷二郎腿（`one leg crossed over the other` / `legs crossed`）、单脚钩栏杆（`one heel hooked on the lower bar`）、双臂后撑侧转身的复合坐姿——这些组合极易导致髋关节解剖崩坏。
+1. **禁用高危姿势写法**：跷二郎腿（`one leg crossed over the other` / `legs crossed`）、单脚钩栏杆（`one heel hooked on the lower bar`）、双臂后撑侧转身的复合坐姿、单腿朝镜头伸直的透视缩短姿势（`leg stretched out toward the viewer`，小腿与脚易被前景遮挡吞没）——需要表现伸腿时改为屈膝落地 `foot flat on the ground`。
 
 2. **安全坐姿写法**（三选一）：侧坐双腿同侧（`sitting side-saddle, both knees together and pointing in the same direction, calves hanging down side by side in natural parallel alignment`）；正坐双膝并拢（`sitting upright, knees together, feet flat on the ground`）；或直接改站立（`standing, weight on one leg, natural stance`）。
 
 3. **Negative Prompt 腿部穷举**（每条必含，接在手部穷举之后）：
-`twisted legs, rotated hips, dislocated hip, extra legs, third leg, fused legs, malformed knees, knees bending in opposite directions, unnatural sitting pose, disproportionate limbs, elongated calves, deformed feet`
+`missing legs, missing feet, missing calves, cropped legs, legs out of frame, twisted legs, rotated hips, dislocated hip, extra legs, third leg, fused legs, malformed knees, knees bending in opposite directions, unnatural sitting pose, disproportionate limbs, elongated calves, deformed feet`
 
 4. **Positive 解剖锚定**（坐姿/腿部可见时必含）：`correct hip-to-thigh-to-knee anatomy, natural leg proportions, both legs in natural parallel alignment, natural seated posture`
 
@@ -371,7 +371,7 @@ curl -s "https://wiki.biligame.com/{game}/api.php?action=query&list=allimages&ai
 **完整 prompt 模板（女版，女性角色专用，配 `needful1-woman.png`）**：
 
 ```
-Refer to the attached reference image (Figure 1). Generate a similar style image of {角色英文名} from {游戏英文名} sitting casually in front of a bold graffiti wall. {角色名} is seated in a relaxed but confident posture, {具体坐姿描述如"leaning back against the graffiti wall with one knee raised, her other leg stretched out casually"}, with her body language calm, controlled, and slightly provocative. Her expression should show cold, disdainful eyes, aloof, sharp, and superior, as if she is silently judging the viewer.
+Refer to the attached reference image (Figure 1). Generate a similar style image of {角色英文名} from {游戏英文名} sitting casually in front of a bold graffiti wall. {角色名} is seated in a relaxed but confident posture, {具体坐姿描述如"leaning back against the graffiti wall with one knee raised, her other leg bent with her foot flat on the ground"}, with her body language calm, controlled, and slightly provocative. Her expression should show cold, disdainful eyes, aloof, sharp, and superior, as if she is silently judging the viewer.
 
 Keep {角色名}'s recognizable features: {保留角色标志性外貌特征列表}. Blend her canonical design with a modern edgy streetwear aesthetic: {上身服装描述 — 无袖露脐+短夹克}, {下身服装描述 — 短裙或短牛仔裤}, {腿部描述 — 光腿或丝袜}, {鞋履描述}, {潮流配饰描述}. Preserve her identity while giving her a fresh urban street-style look.
 
@@ -383,7 +383,7 @@ Use a wide cinematic framing suitable for a 16:9 wallpaper, with {角色名} as 
 **完整 prompt 模板（男版，男性角色专用，配 `needful1-man.png`）**：
 
 ```
-Refer to the attached reference image (Figure 1) for composition, graffiti-wall style, and overall atmosphere only. Generate an image of {角色英文名}, a young man from {游戏英文名}, sitting casually in front of a bold graffiti wall. {角色名} is male — do not render him with feminine features or attire. {角色名} is seated in a relaxed but dominant posture, {具体坐姿描述如"one knee raised with his forearm resting on it, his other leg stretched out casually"}, with his body language calm, controlled, and quietly provocative. His expression should show cold, disdainful eyes, aloof, sharp, and superior, as if he is silently judging the viewer.
+Refer to the attached reference image (Figure 1) for composition, graffiti-wall style, and overall atmosphere only. Generate an image of {角色英文名}, a young man from {游戏英文名}, sitting casually in front of a bold graffiti wall. {角色名} is male — do not render him with feminine features or attire. {角色名} is seated in a relaxed but dominant posture, {具体坐姿描述如"one knee raised with his forearm resting on it, his other leg bent with his foot flat on the ground"}, with his body language calm, controlled, and quietly provocative. His expression should show cold, disdainful eyes, aloof, sharp, and superior, as if he is silently judging the viewer.
 
 Keep {角色名}'s recognizable features: {保留角色标志性外貌特征列表}. He has a masculine youthful build with broad shoulders. Blend his canonical design with a modern edgy streetwear aesthetic: {上身服装描述 — 宽松T恤/背心+敞开夹克或印花衬衫}, {下身服装描述 — 工装裤/破洞牛仔裤/宽松短裤}, {鞋履描述}, {潮流配饰描述}. Preserve his identity while giving him a fresh urban street-style look.
 
