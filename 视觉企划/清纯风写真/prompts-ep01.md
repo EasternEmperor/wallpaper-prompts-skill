@@ -1,9 +1,10 @@
 <!--
 类型 G · 清纯风写真 · 第 1 期
-模式：模式一（1 角色 × 固定场景固定构图固定光线，3 张为回眸姿势下的手部/视线细节变化）
-选题：001 三月七 · JK西装制服
-选角理由：矩阵第 1 期既定条目；三月七已有已校对参考图（开学季JK主题期入库），JK 制服与角色官方开学季形象高度契合，无年龄安全争议。
-系列约定：场景 = 午后教室窗边 / 浅色简洁墙面 / 窗外绿意虚化（三不变逐字复用）；姿势 = 窗边半身回眸；光线 = 侧窗自然光；统一 3:4 竖版；尺度红线永久生效。
+选题：001 三月七
+系列约定：条目 1 = 经典校园 JK（原版格式：午后教室窗边·半身回眸，DNA 逐字复用）；条目 2 = 水手服（校门口石阶·膝上）；条目 3 = 素色比基尼+防晒开衫（泳池边·全身）；统一 3:4 竖版；尺度红线永久生效。
+背景固定枚举规则：背景只允许出现枚举清单内的元素（≤3 个、写明颜色/形态/位置，以 no other background elements 收口），禁止泳池/大海/校园等场所类开放词（防 AI 自由堆叠度假村/植被/建筑）。
+参考图作用域（三条 prompt 通用）：
+Referring to the attached artwork for character appearance only — hair color, hairstyle, eye color and facial features. Do not copy the outfit, pose, or composition of the reference.
 -->
 
 ## 参考图（已校对）
@@ -14,48 +15,48 @@
 
 ---
 
-## 1. 手扶窗框·回眸浅笑
+## 1. 校园JK·手扶窗框·回眸浅笑（原版格式）
 
 **Positive Prompt**：
 
 ```
-masterpiece anime-style illustration, clean simple background, minimalist uncluttered composition, standing by a classroom window in the afternoon, pale minimalist wall, softly blurred greenery outside the window, soft natural side window light, gentle warm tones, highly detailed, 3:4 vertical portrait wallpaper, a young girl with short pink-white hair with a small ahoge and pink-to-purple gradient eyes (March 7th from Honkai: Star Rail), half-body shot by the window, looking back over her shoulder toward the viewer with a soft smile, wearing a navy JK blazer uniform with a white shirt, red ribbon tie and pleated skirt, one hand resting lightly on the window frame
+masterpiece anime-style illustration, clean simple background, minimalist uncluttered composition, standing by a classroom window in the afternoon, pale minimalist wall, softly blurred greenery outside the window, soft natural side window light, gentle warm tones, highly detailed, 3:4 vertical portrait wallpaper, perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose, clean finger separation, a young woman with short pink-white hair with a small ahoge and pink-to-purple gradient eyes (March 7th from Honkai: Star Rail), half-body shot by the window, looking back over her shoulder toward the viewer with a soft smile, wearing a navy JK blazer uniform with a white shirt, red ribbon tie and pleated skirt, one hand resting lightly on the window frame
 ```
 
 **Negative Prompt**：
 
 ```
-cluttered background, busy background, overly detailed background, stacked overlapping elements, excessive glowing particles, excessive bokeh, light clutter, messy composition, lowres, bad anatomy, deformed, disfigured, mutation, blurry, jpeg artifacts, watermark, signature, text, logo, worst quality, low quality, bad hands, extra fingers, missing fingers, fused fingers, too many fingers, mutated hands, malformed hands, deformed hands, extra digits, fewer digits, bad legs, extra legs, missing legs, fused legs, deformed legs, mutated legs, malformed feet, extra feet, missing feet
+cluttered background, busy background, overly detailed background, stacked overlapping elements, excessive glowing particles, excessive bokeh, light clutter, messy composition, lowres, bad anatomy, deformed, blurry, jpeg artifacts, watermark, signature, text, logo, worst quality, low quality, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, missing legs, missing feet, missing calves, cropped legs, legs out of frame, twisted legs, rotated hips, dislocated hip, extra legs, third leg, fused legs, malformed knees, knees bending in opposite directions, unnatural sitting pose, disproportionate limbs, elongated calves, deformed feet, extra limbs, disfigured, mutation, wrong hair color, wrong eye color, incorrect character
 ```
 
 ---
 
-## 2. 怀抱课本·视线望向窗外
+## 2. 水手服·校门口石阶·膝上
 
 **Positive Prompt**：
 
 ```
-masterpiece anime-style illustration, clean simple background, minimalist uncluttered composition, standing by a classroom window in the afternoon, pale minimalist wall, softly blurred greenery outside the window, soft natural side window light, gentle warm tones, highly detailed, 3:4 vertical portrait wallpaper, a young girl with short pink-white hair with a small ahoge and pink-to-purple gradient eyes (March 7th from Honkai: Star Rail), half-body shot by the window, looking back over her shoulder with her gaze drifting toward the window light, wearing a navy JK blazer uniform with a white shirt, red ribbon tie and pleated skirt, both arms hugging two textbooks gently against her chest
+masterpiece anime-style illustration, clean simple background, minimalist uncluttered composition, soft natural late-afternoon light, gentle warm tones, highly detailed, 3:4 vertical portrait wallpaper, perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose, clean finger separation, a young woman with short pink-white hair with a small ahoge and pink-to-purple gradient eyes (March 7th from Honkai: Star Rail), knee-up shot standing on plain grey stone steps, a flat pale-cream plaster wall with one dark wooden gatepost at its left side behind her, no other background elements, looking toward the viewer with a bright cheerful smile, one hand brushing a strand of hair beside her ear, wearing a white sailor uniform top with a navy sailor collar and a red neckerchief, a navy pleated skirt and dark knee socks
 ```
 
 **Negative Prompt**：
 
 ```
-cluttered background, busy background, overly detailed background, stacked overlapping elements, excessive glowing particles, excessive bokeh, light clutter, messy composition, lowres, bad anatomy, deformed, disfigured, mutation, blurry, jpeg artifacts, watermark, signature, text, logo, worst quality, low quality, bad hands, extra fingers, missing fingers, fused fingers, too many fingers, mutated hands, malformed hands, deformed hands, extra digits, fewer digits, bad legs, extra legs, missing legs, fused legs, deformed legs, mutated legs, malformed feet, extra feet, missing feet
+cluttered background, busy background, overly detailed background, stacked overlapping elements, excessive glowing particles, excessive bokeh, light clutter, messy composition, lowres, bad anatomy, deformed, blurry, watermark, text, worst quality, trees, plants, signage, ornaments, buildings, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, missing legs, missing feet, missing calves, cropped legs, legs out of frame, twisted legs, rotated hips, dislocated hip, extra legs, third leg, fused legs, malformed knees, knees bending in opposite directions, unnatural sitting pose, disproportionate limbs, elongated calves, deformed feet, extra limbs, disfigured, mutation, wrong hair color, wrong eye color, incorrect character
 ```
 
 ---
 
-## 3. 手别耳侧发丝·微露讶异
+## 3. 素色比基尼·泳池边·全身
 
 **Positive Prompt**：
 
 ```
-masterpiece anime-style illustration, clean simple background, minimalist uncluttered composition, standing by a classroom window in the afternoon, pale minimalist wall, softly blurred greenery outside the window, soft natural side window light, gentle warm tones, highly detailed, 3:4 vertical portrait wallpaper, a young girl with short pink-white hair with a small ahoge and pink-to-purple gradient eyes (March 7th from Honkai: Star Rail), half-body shot by the window, looking back over her shoulder with a slightly surprised gentle expression, wearing a navy JK blazer uniform with a white shirt, red ribbon tie and pleated skirt, one hand lightly tucking a strand of hair beside her ear
+masterpiece anime-style illustration, clean simple background, minimalist uncluttered composition, soft natural bright summer light, gentle warm tones, highly detailed, 3:4 vertical portrait wallpaper, perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose, clean finger separation, a young woman with short pink-white hair with a small ahoge and pink-to-purple gradient eyes (March 7th from Honkai: Star Rail), full-body standing at a plain white-tiled pool edge, a flat calm pale-blue pool water surface filling the background behind her, no other background elements, looking toward the viewer with a relaxed happy smile, one hand holding a straw sun hat at her chest, wearing a modest pale pink bikini with a thin white sheer cover-up hanging loosely from her elbows
 ```
 
 **Negative Prompt**：
 
 ```
-cluttered background, busy background, overly detailed background, stacked overlapping elements, excessive glowing particles, excessive bokeh, light clutter, messy composition, lowres, bad anatomy, deformed, disfigured, mutation, blurry, jpeg artifacts, watermark, signature, text, logo, worst quality, low quality, bad hands, extra fingers, missing fingers, fused fingers, too many fingers, mutated hands, malformed hands, deformed hands, extra digits, fewer digits, bad legs, extra legs, missing legs, fused legs, deformed legs, mutated legs, malformed feet, extra feet, missing feet
+cluttered background, busy background, overly detailed background, stacked overlapping elements, excessive glowing particles, excessive bokeh, light clutter, messy composition, lowres, bad anatomy, deformed, blurry, watermark, text, worst quality, palm trees, parasols, beach umbrellas, deck chairs, resort furniture, tables, plants, buildings, sea, mountains, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, missing legs, missing feet, missing calves, cropped legs, legs out of frame, twisted legs, rotated hips, dislocated hip, extra legs, third leg, fused legs, malformed knees, knees bending in opposite directions, unnatural sitting pose, disproportionate limbs, elongated calves, deformed feet, extra limbs, disfigured, mutation, wrong hair color, wrong eye color, incorrect character
 ```

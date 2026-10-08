@@ -2,9 +2,9 @@
 
 ## 母定位宣言
 
-固定场景、固定构图、固定光线的"系列写真棚"：每期换角色、换服装（JK 西装制服 / 水手服短裙 / 素色比基尼），场景永远是午后教室窗边。粉丝收集的是"同一个小世界里的不同女孩"。
+固定角色、一套三变的「系列写真棚」：每期 1 位角色 × 3 套造型（校园 JK / 水手服短裙 / 素色比基尼）。校园 JK 沿用经典窗边半身原版格式（场景/构图/光线不变）；水手服与泳装另设场景与景别（校门口石阶·膝上 / 泳池边·全身），三张以角色一致性与柔和自然光统一系列感。粉丝收集的是"同一个女孩的不同一面"。
 
-**固定不变项**（跨期逐字复用）：场景 = 午后教室窗边，浅色简洁墙面，窗外绿意虚化；姿势 = 窗边半身回眸；光线 = 侧窗自然光。
+**固定不变项**（跨期逐字复用）：anime 风格 DNA 块、3:4 竖版、背景简洁强制条款、柔和自然光暖色调、角色官方参考图锁外观（不复制服装/姿势/构图）、负面块基线与人体穷举块。
 
 ## 风格 DNA 固定块（positive，逐字复用，禁止改动）
 
@@ -12,19 +12,30 @@
 masterpiece anime-style illustration, clean simple background, minimalist uncluttered composition, standing by a classroom window in the afternoon, pale minimalist wall, softly blurred greenery outside the window, soft natural side window light, gentle warm tones, highly detailed, 3:4 vertical portrait wallpaper
 ```
 
+条目 1（校园 JK）逐字复用该 DNA 原版格式（窗边·半身回眸）；条目 2（水手服）与条目 3（泳装）保留 DNA 其余部分，仅将场景段替换为各自场景（2026-10-07 第 3 期起改版）。
+
+## 背景固定枚举规则（防 AI 自由发挥，2026-10-07）
+
+1. 每条 prompt 的背景必须枚举固定为 ≤3 个朴素元素，逐个写明颜色/形态/位置，并以 `no other background elements` 收口。
+2. 禁止场所类开放词（pool / sea / beach / campus / resort 等）单独充当背景描述——AI 会自行堆叠棕榈树、躺椅、遮阳伞、建筑等元素，导致人物与背景不协调。
+3. 三套条目固定背景清单：JK = 原版 DNA（教室窗 + 浅色墙 + 窗外绿意虚化）；水手服 = 脚下灰色石阶 + 身后浅米色平墙（左端一根深色木门柱）；泳装 = 白瓷砖池边 + 身后平坦淡蓝池水面。
+4. 水手服条目负面块在 `worst quality,` 后追加 `trees, plants, signage, ornaments, buildings,`；泳装条目追加 `palm trees, parasols, beach umbrellas, deck chairs, resort furniture, tables, plants, buildings, sea, mountains,`。
+
 ## 定位专属负面块（逐字复用）
 
 ```
 cluttered background, busy background, overly detailed background, stacked overlapping elements, excessive glowing particles, excessive bokeh, light clutter, messy composition
 ```
 
-## 选题矩阵（30 期，每期 1 角色换装 3 张：模式一）
+## 选题矩阵（30 期，每期 1 角色 × 三套造型：JK / 水手服 / 比基尼）
+
+> 注：自第 3 期改版起，每期固定产出同一角色的 JK、水手服、素色比基尼三张，不再按旧「服装轮换」列做单套服装；下表服装列视为旧版期已出记录，仅作角色排期参考。
 
 | 编号 | 角色 | 服装轮换 | 状态 |
 |------|------|----------|------|
 | 001 | 三月七 | JK西装制服 | 已做·第1期 |
 | 002 | 流萤 | 水手服短裙 | 已做·第2期 |
-| 003 | 神里绫华 | JK西装制服 | 未做 |
+| 003 | 神里绫华 | JK西装制服 | 已做·第3期 |
 | 004 | 雷电将军 | 素色比基尼 | 未做 |
 | 005 | 甘雨 | 水手服短裙 | 未做 |
 | 006 | 夜兰 | 素色比基尼 | 未做 |
@@ -59,9 +70,11 @@ cluttered background, busy background, overly detailed background, stacked overl
 |------|------|------|----------|----------|
 | 1 | 2026-10-04 | 模式一（三月七·JK西装制服） | 001 | prompts-ep01.md |
 | 2 | 2026-10-04 | 模式一（流萤·水手服短裙） | 002 | prompts-ep02.md |
+| 3 | 2026-10-07 | 模式一改版（神里绫华·JK/水手服/比基尼） | 003 | prompts-ep03.md |
 
 ## 禁入清单
 
 - **未成年外形成年角色一律禁入本系列**（白露仅限 JK 条目且为合法校园着装语境，严禁任何泳装/暴露向处理）；比基尼条目仅限上表指定的明确成年外形角色
 - 任何暴露、暗示性姿势；尺度红线（nude/topless/explicit 等）永久生效
-- 换场景、换构图、换光线——破坏系列统一性
+- 背景使用场所类开放词（泳池/大海/校园/度假村等）而非固定元素清单
+- 每期三张必须同角色、同 3:4 竖版、同风格 DNA、同负面块基线；不得三张同场景同景别同姿势（避免单调）；比基尼仅限素色保守款式 + 防晒开衫语境

@@ -11,7 +11,7 @@
 > 参考图作用域（三条 prompt 通用）：`Referring to the attached artwork for character appearance only — hair color, hairstyle, eye color and facial features. Do not copy the outfit, pose, or composition of the reference.`
 > 注：本系列不做名场面截图下载，构图/光线/色调由 prompt 构图描述还原（见 bible 溯源规则第 2 条）。
 
-## 1. 海上列车·黄昏车窗（选题 001）
+## 1. 海上列车·黄昏车窗（选题 001 · 来源：千与千寻 剧场版）
 
 **背景场景**：复古绿皮列车车厢内部，黄昏时分，车窗外是一望无际的粼粼海面。构图极简：角色 + 车窗 + 海平线，无多余陈设。
 
@@ -27,7 +27,7 @@
 cluttered background, busy background, overly detailed background, stacked overlapping elements, excessive glowing particles, excessive bokeh, light clutter, messy composition, 3d render, photorealistic, western cartoon, low quality, worst quality, blurry, pixelated, bad anatomy, extra limbs, wrong hair color, wrong eye color, incorrect character, text, watermark, logo, signature, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, missing legs, missing feet, missing calves, cropped legs, legs out of frame, twisted legs, rotated hips, dislocated hip, extra legs, third leg, fused legs, malformed knees, knees bending in opposite directions, disproportionate limbs, elongated calves, deformed feet
 ```
 
-## 2. 黄昏石阶坡道·回望与彗星（选题 002）
+## 2. 黄昏石阶坡道·回望与彗星（选题 002 · 来源：你的名字。 剧场版）
 
 **背景场景**：长长的石阶坡道向上延伸，深蓝紫色黄昏天空挂着一道彗星尾迹，坡道底端远处城市仅余几点微光。构图极简：石阶 + 天空 + 一道彗星。
 
@@ -35,7 +35,7 @@ cluttered background, busy background, overly detailed background, stacked overl
 
 **Positive Prompt**：
 ```
-3:4 vertical portrait wallpaper, masterpiece anime-style illustration, iconic anime scene recreation, clean simple background, minimalist uncluttered composition, soft cinematic lighting, vivid film-like color grading, highly detailed, Firefly from Honkai: Star Rail, long silver-white hair with soft teal inner streaks, teal-green eyes, fair skin, slender figure, wearing a navy sailor school uniform with pleated skirt, standing midway on a long stone stairway climbing a quiet hill at twilight, looking back over her shoulder toward the viewer, arms relaxed at her sides, natural hand pose, calm wistful expression with a hint of longing, deep blue-purple twilight sky with a single elegant comet trail above, only a few faint distant town lights far below the stairway, cool twilight ambient light with warm comet glow accent, soft cinematic contrast
+3:4 vertical portrait wallpaper, masterpiece anime-style illustration, iconic anime scene recreation, clean simple background, minimalist uncluttered composition, soft cinematic lighting, vivid film-like color grading, highly detailed, Firefly from Honkai: Star Rail, long silver-white hair with soft teal inner streaks, teal-green eyes, fair skin, slender figure, wearing a navy sailor school uniform with pleated skirt, standing midway on a long stone stairway climbing a quiet hill at twilight, looking back over her shoulder toward the viewer, arms relaxed at her sides, perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose, calm wistful expression with a hint of longing, deep blue-purple twilight sky with a single elegant comet trail above, only a few faint distant town lights far below the stairway, cool twilight ambient light with warm comet glow accent, soft cinematic contrast
 ```
 
 **Negative Prompt**：
@@ -43,7 +43,7 @@ cluttered background, busy background, overly detailed background, stacked overl
 cluttered background, busy background, overly detailed background, stacked overlapping elements, excessive glowing particles, excessive bokeh, light clutter, messy composition, 3d render, photorealistic, western cartoon, low quality, worst quality, blurry, pixelated, bad anatomy, extra limbs, wrong hair color, wrong eye color, incorrect character, text, watermark, logo, signature, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, missing legs, missing feet, missing calves, cropped legs, legs out of frame, twisted legs, rotated hips, dislocated hip, extra legs, third leg, fused legs, malformed knees, knees bending in opposite directions, unnatural sitting pose, disproportionate limbs, elongated calves, deformed feet
 ```
 
-## 3. 夏日海边铁道口·电车掠过（选题 003）
+## 3. 夏日海边铁道口·电车掠过（选题 003 · 来源：灌篮高手 TV·OP 镰仓高校前道口）
 
 **背景场景**：夏日海边铁道口，一辆绿白相间的电车正掠过背景（轻度动态模糊），身后是干净的海平线与积云一朵。构图极简：角色 + 遮断机 + 一辆电车 + 海。
 
