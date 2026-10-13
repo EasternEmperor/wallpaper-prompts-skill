@@ -13,7 +13,7 @@ masterpiece anime-style illustration, iconic anime scene recreation, clean simpl
 ## 定位专属负面块（逐字复用）
 
 ```
-cluttered background, busy background, overly detailed background, stacked overlapping elements, excessive glowing particles, excessive bokeh, light clutter, messy composition, 3d render, photorealistic, western cartoon
+cluttered background, busy background, overly detailed background, stacked overlapping elements, excessive glowing particles, excessive bokeh, light clutter, messy composition, 3d render, photorealistic, western cartoon, mirrored hands, reversed hands, hands with wrong chirality
 ```
 
 ## 名场面溯源规则（本系列专属）
@@ -38,7 +38,8 @@ perfect hands, five fingers on each hand, anatomically correct hands, well-defin
 bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, missing legs, missing feet, missing calves, cropped legs, legs out of frame, twisted legs, rotated hips, dislocated hip, extra legs, third leg, fused legs, malformed knees, knees bending in opposite directions, unnatural sitting pose, disproportionate limbs, elongated calves, deformed feet, extra limbs, disfigured, mutation, wrong hair color, wrong eye color, incorrect character
 ```
 
-3. **自检计数**（每份 prompts 文件产出后执行，N=该文件 prompt 条数）：`fused fingers` = N、`malformed knees` = N、`perfect hands` = N、`extra limbs` = N、`3:4 vertical portrait wallpaper` = N；负面块中不得出现 nude/nsfw/loli/underage/topless/nipples/areola/suggestive 等审查敏感词；占位符 = 0。
+3. **高危姿势左右手指定（防手性镜像）**：背身回眸、过肩、扶栏、抬手接物等姿势必须在 positive 中指定左右手与拇指朝向（如 `her right hand gripping the collar of her coat with the thumb toward her chin, correct left-right hand orientation`）；背视角下手性错误（右手画成左手）为 diffusion 高发缺陷，提示词只能降概率不能根除，此类图出图时应多抽几张挑选。
+4. **自检计数**（每份 prompts 文件产出后执行，N=该文件 prompt 条数）：`fused fingers` = N、`malformed knees` = N、`perfect hands` = N、`extra limbs` = N、`3:4 vertical portrait wallpaper` = N；负面块中不得出现 nude/nsfw/loli/underage/topless/nipples/areola/suggestive 等审查敏感词；占位符 = 0。
 
 ## 选题矩阵
 
@@ -52,21 +53,21 @@ bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed 
 | 005 | 三月七 | 樱花道口·列车驶过瞬间 | 秒速五厘米 | 剧场版·第1话《樱花抄》 | 未做 |
 | 006 | 宵宫 | 夏日祭面具摊·纸灯一盏 | 未闻花名 | TV（夏祭场景） | 未做 |
 | 007 | 宵宫 | 千本鸟居·朱红回廊尽头回眸 | 稻荷恋之歌 | TV（鸟居回廊场景） | 已做·第4期 |
-| 008 | 芙宁娜 | 异色商船甲板·海坊主之海 | 怪化猫（モノノ怪） | TV·第3〜5话「海坊主」 | 已做·第3期 |
+| 008 | 芙宁娜（&那维莱特） | 浮世绘双影·花纹与剑 | 怪化猫（モノノ怪） | 浮世绘风格主视觉（双人构图） | 已做·第3期 |
 | 009 | 甘雨 | 雨后石阶·纸伞与青苔 | 言叶之庭 | 剧场版 | 已做·第5期 |
 | 010 | 胡桃 | 秘密庭园·花开小径 | 借物少女艾莉缇 | 剧场版（庭园场景） | 未做 |
 | 011 | 神里绫华 | 山顶神社·云海黄昏鸟居 | 你的名字。 | 剧场版（宮水神社） | 已做·第4期 |
 | 012 | 雷电将军 | 神社黄昏·灯笼次第亮起 | 夏目友人帐 | TV（神社与灯影场景） | 已做·第4期 |
 | 013 | 花火 | 夏夜桥上烟花·单发盛放 | 声之形 | 剧场版 | 未做 |
-| 014 | 黄泉 | 星之夜站台·银河列车 | 银河铁道之夜 | 剧场版（1985） | 已做·第2期 |
+| 014 | 黄泉（&三月七） | 银河星夜·新月与列车 | 银河铁道之夜 | 剧场版（1985·主视觉海报构图·双人） | 已做·第2期 |
 | 015 | 知更鸟 | 老式唱片店橱窗·黄昏街角 | 坂道上的阿波罗 | TV·待查 | 未做 |
 | 016 | 耀嘉音 | 天台黄昏·天线与晚霞 | 新世纪福音战士 | TV·多话（天台场景） | 未做 |
 | 017 | 艾莲 | 图书馆窗边·阳光尘埃浮游 | 冰菓 | TV（图书室篇章） | 未做 |
-| 018 | 星见雅 | 无人车站·晨雾之门 | 铃芽之旅 | 剧场版（废駅关门场景） | 已做·第2期 |
-| 019 | 妮露 | 海边防波堤·水平线与裙摆 | 来自风平浪静的明天 | TV（海面与防波堤场景） | 已做·第3期 |
+| 018 | 星见雅 | 水上白门·倒影与云 | 铃芽之旅 | 剧场版（主视觉海报·水中之门） | 已做·第2期 |
+| 019 | 妮露 | 夏空回眸·仰角与风 | 来自风平浪静的明天 | 六周年纪念主视觉图（仰角夏空构图） | 已做·第3期 |
 | 020 | 千织 | 温泉街橱窗·午后光 | 花开伊吕波 | TV（汤乃鹭温泉街场景） | 未做 |
 | 021 | 镜流 | 雪之踏切·雪如樱吹雪 | 秒速五厘米 | 剧场版·第1话《樱花抄》结尾 | 未做 |
-| 022 | 爱可菲 | 嵐夜海崖之家·浪与灯火 | 崖上的波妞 | 剧场版（崖上小屋场景） | 已做·第3期 |
+| 022 | 爱可菲（&丝柯克） | 崖上之吻·跃空与云海 | 崖上的波妞 | 剧场版（崖上之吻名场面） | 已做·第3期 |
 | 023 | 玛薇卡 | 向日葵花田·蓝天积云 | CLANNAD After Story | TV（向日葵花田场景） | 已做·第5期 |
 | 024 | 钟离 | 御神木古森·树影斑驳 | 犬夜叉 | TV·第1话（御神木场景） | 已做·第5期 |
 | 025 | 刻晴 | 电车内黄昏·窗外流光 | 秒速五厘米 | 剧场版（东京电车段落） | 未做 |

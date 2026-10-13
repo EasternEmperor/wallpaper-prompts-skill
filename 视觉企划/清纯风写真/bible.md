@@ -49,7 +49,7 @@ cluttered background, busy background, overly detailed background, stacked overl
 | 014 | 爱可菲 | 素色比基尼 | 未做 |
 | 015 | 星见雅 | JK西装制服 | 未做 |
 | 016 | 黄泉 | 素色比基尼 | 未做 |
-| 017 | 芙宁娜 | 水手服短裙 | 未做 |
+| 017 | 芙宁娜 | 水手服短裙 | 已做·第4期 |
 | 018 | 玛薇卡 | 素色比基尼 | 未做 |
 | 019 | 知更鸟 | 水手服短裙 | 未做 |
 | 020 | 停云 | 水手服短裙 | 未做 |
@@ -71,6 +71,7 @@ cluttered background, busy background, overly detailed background, stacked overl
 | 1 | 2026-10-04 | 模式一（三月七·JK西装制服） | 001 | prompts-ep01.md |
 | 2 | 2026-10-04 | 模式一（流萤·水手服短裙） | 002 | prompts-ep02.md |
 | 3 | 2026-10-07 | 模式一改版（神里绫华·JK/水手服/比基尼） | 003 | prompts-ep03.md |
+| 4 | 2026-10-13 | 模式一改版（芙宁娜·JK/水手服/比基尼，生日热点驱动） | 017 | prompts-ep04.md |
 
 ## 禁入清单
 
