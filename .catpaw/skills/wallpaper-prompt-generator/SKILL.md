@@ -200,10 +200,10 @@ description: 米哈游游戏角色壁纸 AI 生图 prompts 每日生成工具。
 AI 生图最常见的问题就是手部画错（多指、少指、融合指、模糊指）。以下三条策略必须组合使用：
 
 1. **Negative Prompt 手部穷举**（每条 prompt 必含以下全部词条，直接粘贴到 negative prompt 中）：
-   `bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands`
+   `bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, overlapping fingers, deformed fingers, six fingers, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands`
 
 2. **Positive Prompt 正面引导**（当画面中手部可见时必含）：
-   `perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose, detailed hands, clean finger separation`
+   `perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose`
    在人物动作描述中必须明确手部姿态（如 `hands relaxed at sides`、`arms crossed, hands tucked`），避免让 AI 自由发挥导致画崩。
 
 3. **构图规避策略**（从源头降低风险）：
@@ -220,7 +220,7 @@ AI 生图最常见的问题就是手部画错（多指、少指、融合指、�
 2. **安全坐姿写法**（三选一）：侧坐双腿同侧（`sitting side-saddle, both knees together and pointing in the same direction, calves hanging down side by side in natural parallel alignment`）；正坐双膝并拢（`sitting upright, knees together, feet flat on the ground`）；或直接改站立（`standing, weight on one leg, natural stance`）。
 
 3. **Negative Prompt 腿部穷举**（每条必含，接在手部穷举之后）：
-`missing legs, missing feet, missing calves, cropped legs, legs out of frame, twisted legs, rotated hips, dislocated hip, extra legs, third leg, fused legs, malformed knees, knees bending in opposite directions, unnatural sitting pose, disproportionate limbs, elongated calves, deformed feet`
+`missing legs, missing feet, cropped legs, twisted legs, rotated hips, extra legs, fused legs, malformed knees, knees bending in opposite directions, unnatural sitting pose, disproportionate limbs, elongated calves, deformed feet`
 
 4. **Positive 解剖锚定**（坐姿/腿部可见时必含）：`correct hip-to-thigh-to-knee anatomy, natural leg proportions, both legs in natural parallel alignment, natural seated posture`
 

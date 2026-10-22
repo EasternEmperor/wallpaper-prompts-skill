@@ -23,8 +23,8 @@ color, colored, gradient color, any color tint, cluttered background, busy backg
 | 001 | 钟离 | 山 | 已做·第1期 |
 | 002 | 甘雨 | 雨 | 已做·第2期 |
 | 003 | 胡桃 | 梅 | 已做·第3期 |
-| 004 | 神里绫华 | 雪 | 未做 |
-| 005 | 雷电将军 | 刀 | 未做 |
+| 004 | 神里绫华 | 雪 | 已做·第4期 |
+| 005 | 雷电将军 | 刀 | 已做·第5期 |
 | 006 | 枫原万叶 | 枫 | 未做 |
 | 007 | 温迪 | 风 | 未做 |
 | 008 | 魈 | 月 | 未做 |
@@ -58,6 +58,8 @@ color, colored, gradient color, any color tint, cluttered background, busy backg
 | 1 | 2026-10-04 | 模式一（钟离×山） | 001 | prompts-ep01.md |
 | 2 | 2026-10-07 | 模式一（甘雨×雨） | 002 | prompts-ep02.md |
 | 3 | 2026-10-07 | 模式一（胡桃×梅） | 003 | prompts-ep03.md |
+| 4 | 2026-10-17 | 模式一（神里绫华×雪） | 004 | prompts-ep04.md |
+| 5 | 2026-10-20 | 模式一（雷电将军×刀） | 005 | prompts-ep05.md |
 
 ## 封面图规范（每期 1 张，固定位）
 

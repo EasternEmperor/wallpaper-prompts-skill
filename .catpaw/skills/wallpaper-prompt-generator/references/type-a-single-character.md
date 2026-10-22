@@ -117,7 +117,7 @@
 **完整 prompt 模板（女版，女性角色专用，配 `needful1-woman.png`）**：
 
 ```
-Refer to the attached reference image (Figure 1). Generate a similar style image of {角色英文名} from {游戏英文名} sitting casually in front of a bold graffiti wall. {角色名} is seated in a relaxed but confident posture, {具体坐姿描述如"leaning back against the graffiti wall with one knee raised, her other leg bent with her foot flat on the ground"}, with her body language calm, controlled, and slightly provocative. Her expression should show cold, disdainful eyes, aloof, sharp, and superior, as if she is silently judging the viewer.
+Refer to the attached reference image (Figure 1). Generate a similar style image of {角色英文名} from {游戏英文名} sitting casually in front of a bold graffiti wall. {角色名} is seated in a relaxed but confident posture, {具体坐姿描述如"leaning back against the graffiti wall with one knee raised, her other leg extended straight along the ground with the foot flat on the floor, both legs clearly separated with a visible gap"}, with her body language calm, controlled, and slightly provocative. Her expression should show cold, disdainful eyes, aloof, sharp, and superior, as if she is silently judging the viewer.
 
 Keep {角色名}'s recognizable features: {保留角色标志性外貌特征列表}. Blend her canonical design with a modern edgy streetwear aesthetic: {上身服装描述 — 无袖露脐+短夹克}, {下身服装描述 — 短裙或短牛仔裤}, {腿部描述 — 光腿或丝袜}, {鞋履描述}, {潮流配饰描述}. Preserve her identity while giving her a fresh urban street-style look.
 
@@ -129,7 +129,7 @@ Use a wide cinematic framing suitable for a 16:9 wallpaper, with {角色名} as 
 **完整 prompt 模板（男版，男性角色专用，配 `needful1-man.png`）**：
 
 ```
-Refer to the attached reference image (Figure 1) for composition, graffiti-wall style, and overall atmosphere only. Generate an image of {角色英文名}, a young man from {游戏英文名}, sitting casually in front of a bold graffiti wall. {角色名} is male — do not render him with feminine features or attire. {角色名} is seated in a relaxed but dominant posture, {具体坐姿描述如"one knee raised with his forearm resting on it, his other leg bent with his foot flat on the ground"}, with his body language calm, controlled, and quietly provocative. His expression should show cold, disdainful eyes, aloof, sharp, and superior, as if he is silently judging the viewer.
+Refer to the attached reference image (Figure 1) for composition, graffiti-wall style, and overall atmosphere only. Generate an image of {角色英文名}, a young man from {游戏英文名}, sitting casually in front of a bold graffiti wall. {角色名} is male — do not render him with feminine features or attire. {角色名} is seated in a relaxed but dominant posture, {具体坐姿描述如"one knee raised with his forearm resting on it, his other leg extended straight along the ground with the foot flat on the floor, both legs clearly separated with a visible gap"}, with his body language calm, controlled, and quietly provocative. His expression should show cold, disdainful eyes, aloof, sharp, and superior, as if he is silently judging the viewer.
 
 Keep {角色名}'s recognizable features: {保留角色标志性外貌特征列表}. He has a masculine youthful build with broad shoulders. Blend his canonical design with a modern edgy streetwear aesthetic: {上身服装描述 — 宽松T恤/背心+敞开夹克或印花衬衫}, {下身服装描述 — 工装裤/破洞牛仔裤/宽松短裤}, {鞋履描述}, {潮流配饰描述}. Preserve his identity while giving him a fresh urban street-style look.
 
@@ -142,11 +142,11 @@ Use a wide cinematic framing suitable for a 16:9 wallpaper, with {角色名} as 
 
 女版追加：
 
-`standing, standing pose, upright posture, singing, open mouth singing, warm smile, gentle smile, cheerful expression, cute expression, adorable, sweet, innocent, game canonical outfit, official costume, fantasy dress, medieval clothing, armor, full gown, formal dress, beach background, ocean background, nature background, indoor background, plain background, minimal background, missing graffiti wall, low detail graffiti, generic graffiti, wrong graffiti colors, wrong streetwear, missing crop top, missing jacket, missing shorts, missing skirt, long dress, full pants, business suit, school uniform`
+`standing, standing pose, upright posture, singing, open mouth singing, warm smile, gentle smile, cheerful expression, cute expression, adorable, sweet, innocent, game canonical outfit, official costume, fantasy dress, medieval clothing, armor, full gown, formal dress, beach background, ocean background, nature background, indoor background, plain background, minimal background, missing graffiti wall, low detail graffiti, generic graffiti, wrong graffiti colors, wrong streetwear, missing crop top, missing jacket, missing shorts, missing skirt, long dress, full pants, business suit, school uniform, both knees raised, legs folded underneath, kneeling pose`
 
 男版追加：
 
-`standing, standing pose, upright posture, singing, open mouth singing, warm smile, gentle smile, cheerful expression, cute expression, adorable, sweet, innocent, game canonical outfit, official costume, fantasy dress, medieval clothing, armor, full gown, formal dress, beach background, ocean background, nature background, indoor background, plain background, minimal background, missing graffiti wall, low detail graffiti, generic graffiti, wrong graffiti colors, wrong streetwear, missing jacket, long dress, business suit, school uniform, feminine, androgynous, female body, curvy figure, skirt, crop top, tube top, fishnet, thigh strap, makeup, lipstick, slender feminine figure`
+`standing, standing pose, upright posture, singing, open mouth singing, warm smile, gentle smile, cheerful expression, cute expression, adorable, sweet, innocent, game canonical outfit, official costume, fantasy dress, medieval clothing, armor, full gown, formal dress, beach background, ocean background, nature background, indoor background, plain background, minimal background, missing graffiti wall, low detail graffiti, generic graffiti, wrong graffiti colors, wrong streetwear, missing jacket, long dress, business suit, school uniform, feminine, androgynous, female body, curvy figure, skirt, crop top, tube top, fishnet, thigh strap, makeup, lipstick, slender feminine figure, both knees raised, legs folded underneath, kneeling pose`
 
 ## 必需2 — 角色特写肖像 (Close-up Portrait)
 
@@ -231,7 +231,7 @@ Refer to the attached reference image (Figure 2). Generate a cinematic close-up 
 
 1. **2D 日漫风人物**：positive prompt 必含 `2D Japanese anime style, flat cel shading, clean thin lineart, soft anime coloring, Japanese anime aesthetic`；人物绘制走扁平赛璐璐、细线条、柔和上色的路线，不走 3D 渲染、半写实、厚涂路线
 2. **性感妩媚服装三型**（按角色气质选一，四条共用同一套服装）：泳装系（比基尼式连体/分体+透纱罩衫）、JK 系（短款衬衫+领结+百褶裙）、活力系（露脐短上衣/吊带+短裙/短裤）；男性角色做性别化处理（敞开花衬衫+沙滩裤等），不强制泳装
-3. **尺度红线（写死，不可放宽）**：仅限成年角色；姿态优雅不露点；positive 统一含 `tasteful and elegant throughout, no explicit content`；negative 统一追加 `nude, topless, nipples, areola, explicit, childlike, loli, underage`
+3. **尺度红线（写死，不可放宽）**：仅限成年角色；姿态优雅不露点；positive 统一含 `tasteful and elegant throughout, no explicit content` 锚点；**negative 不写任何露骨尺度词**（nude/nsfw/loli/underage/topless/nipples/areola/suggestive 等会触发生成器安全审查拦截，2026-10 起确立），尺度判断交给模型
 4. **简约朴素场景背景**：positive prompt 必含 `simple anime scenery background, clean minimal scene composition, Ghibli-inspired soft background, flat background with simple shapes and soft colors`——背景为单一简单场景（如一片天空与云、一片草地、远山与水面、星空），线条简单、透视平缓、元素少不堆叠；不出现复杂建筑群、多场景叠加、道具堆砌，也不出现武器交战与打斗场面；背景主色与角色主题色呼应（如冰角色→淡蓝白、火角色→米橙）
 5. **构图随比例调整**：9:20 竖版用半身或全身居中构图；16:9 横版让人物站于画面一侧留白呼吸感；4:3 用居中半身；√2:1 用横向极简留白构图
 6. **系列一致性**：四条 prompt 共用同一套人物外貌/服装描述、同一背景场景及配色方案，仅微调姿势、构图与背景元素的疏密/色调深浅形成系列变化，画风、配色、简约度必须统一
@@ -245,7 +245,7 @@ Refer to the attached reference image (Figure 2). Generate a cinematic close-up 
 
 **负面提示词追加项**（在通用手部/腿部穷举与画质排除基础上**必须额外追加**）：
 
-`3D render, semi-realistic, realistic, painterly, thick oil paint, game 3D model, complex background, cluttered background, multiple overlapping scenes, busy props, heavy details, photorealistic background, weapon combat, fighting, blood, gore, nude, topless, nipples, areola, explicit, childlike, loli, underage`
+`3D render, semi-realistic, realistic, painterly, thick oil paint, game 3D model, complex background, cluttered background, multiple overlapping scenes, busy props, heavy details, photorealistic background, weapon combat, fighting, blood, gore`
 
 ## 跨领域参考图
 
