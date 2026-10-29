@@ -25,7 +25,7 @@ color, colored, gradient color, any color tint, cluttered background, busy backg
 | 003 | 胡桃 | 梅 | 已做·第3期 |
 | 004 | 神里绫华 | 雪 | 已做·第4期 |
 | 005 | 雷电将军 | 刀 | 已做·第5期 |
-| 006 | 枫原万叶 | 枫 | 未做 |
+| 006 | 枫原万叶 | 枫 | 已做·第6期 |
 | 007 | 温迪 | 风 | 未做 |
 | 008 | 魈 | 月 | 未做 |
 | 009 | 达达利亚 | 鲸 | 未做 |
@@ -60,6 +60,7 @@ color, colored, gradient color, any color tint, cluttered background, busy backg
 | 3 | 2026-10-07 | 模式一（胡桃×梅） | 003 | prompts-ep03.md |
 | 4 | 2026-10-17 | 模式一（神里绫华×雪） | 004 | prompts-ep04.md |
 | 5 | 2026-10-20 | 模式一（雷电将军×刀） | 005 | prompts-ep05.md |
+| 6 | 2026-10-29 | 模式一（枫原万叶×枫，生日热点驱动续更：当日恰为万叶官方生日 10-29） | 006 | prompts-ep06.md |
 
 ## 封面图规范（每期 1 张，固定位）
 

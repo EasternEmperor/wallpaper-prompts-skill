@@ -38,7 +38,7 @@ cluttered background, busy background, overly detailed background, stacked overl
 | 003 | 神里绫华 | JK西装制服 | 已做·第3期 |
 | 004 | 雷电将军 | 素色比基尼 | 已做·第5期 |
 | 005 | 甘雨 | 水手服短裙 | 已做·第6期 |
-| 006 | 夜兰 | 素色比基尼 | 未做 |
+| 006 | 夜兰 | 素色比基尼 | 已做·第7期 |
 | 007 | 宵宫 | 水手服短裙 | 未做 |
 | 008 | 优菈 | 素色比基尼 | 未做 |
 | 009 | 胡桃 | JK西装制服 | 未做 |
@@ -74,6 +74,7 @@ cluttered background, busy background, overly detailed background, stacked overl
 | 4 | 2026-10-13 | 模式一改版（芙宁娜·JK/水手服/比基尼，生日热点驱动） | 017 | prompts-ep04.md |
 | 5 | 2026-10-15 | 模式一改版（雷电将军·JK/水手服/比基尼，无热点日常期续更） | 004 | prompts-ep05.md |
 | 6 | 2026-10-18 | 模式一改版（甘雨·JK/水手服/比基尼，无热点日常期续更，椰奶梗入题） | 005 | prompts-ep06.md |
+| 7 | 2026-10-27 | 模式一（夜兰·五套造型，无热点日常期续更，骰子梗入题） | 006 | prompts-ep07.md |
 
 ## 禁入清单
 

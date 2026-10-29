@@ -12,6 +12,8 @@ Referring to the attached artwork for character appearance only — hair color, 
 
 - 宵宫官方参考图（已校对·面部特写，仅锁面部外观）：[../../原神/宵宫/image-1.png](../../原神/宵宫/image-1.png)
 - 雷电将军官方参考图（已校对）：[../../主题类型/星超导·雷鸣战舰/raiden-splash.png](../../主题类型/星超导·雷鸣战舰/raiden-splash.png)
+- 八重神子狐狸形态参考（2026-10-26 用户提供，已目视校对；作用域：仅锁狐狸形态外观——粉白相间、长尖耳带金色耳坠、额头白色小花纹、粉色尾尖大尾巴）：[../../主题类型/星超导·雷鸣战舰/yae-miko-fox-ref.png](../../主题类型/星超导·雷鸣战舰/yae-miko-fox-ref.png)
+- 012 构图参照：《夏目友人帳 漆》官方主视觉海报（用户 2026-10-26 提供，溯源登记不下载文件）
 - 神里绫华官方参考图（已校对）：[../../原神/神里绫华/splash-art.png](../../原神/神里绫华/splash-art.png)
 - 作用域：仅锁定外观（发色/发型/瞳色/五官），不复制参考图服装、姿势与构图。
 
@@ -35,20 +37,22 @@ cluttered background, busy background, overly detailed background, stacked overl
 
 ---
 
-### 012 雷电将军 · 神社黄昏（灯笼次第亮起 · 来源：夏目友人帐 TV）
+### 012 雷电将军 · 川桥秋色·栏杆上的狐狸（秋枫回眸 · 来源：夏目友人帐 TV·第7季《漆》主视觉海报）
 
-**背景场景**：黄昏神社石阶，人物侧身回眸，身后两盏石灯笼刚刚亮起暖光，天色未全暗。来源：夏目友人帐（TV·神社与灯影场景）。
+> 2026-10-26 按《夏目友人帳 漆》主视觉海报构图重写（用户附官方海报）：高机位俯拍全身、背侧身立于石堤绿栏杆旁回眸仰望，栏杆上趴一只八重神子狐狸形态；原「神社黄昏·灯笼」构图废弃。
+
+**背景场景**：秋日川桥石堤，高机位俯拍——她背侧身立于绿漆木栏杆旁回眸仰望观者，一只粉白小狐狸趴在栏杆上，红枫叶框住画面边角，石阶散落橙叶。来源：夏目友人帐（TV·第7季《漆》主视觉海报·川桥回眸构图）。
 
 **Positive Prompt:**
 
 ```text
-masterpiece anime-style illustration, iconic anime scene recreation, clean simple background, minimalist uncluttered composition, soft cinematic lighting, vivid film-like color grading, highly detailed, 3:4 vertical portrait wallpaper, perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose, clean finger separation, a woman with long violet hair in a single braid and violet eyes (Raiden Shogun from Genshin Impact), standing sideways on shrine stone steps at dusk, looking back over her shoulder toward the viewer, thigh-up shot, wearing a violet and white kimono-style coat, one hand folded quietly in front of her, two glowing stone lanterns and a simple torii silhouette behind her, deep purple-blue sky with one warm lantern glow, violet and amber palette
+masterpiece anime-style illustration, iconic anime scene recreation, clean simple background, minimalist uncluttered composition, soft cinematic lighting, vivid film-like color grading, highly detailed, 3:4 vertical portrait wallpaper, perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose, clean finger separation, high-angle overhead shot, full-body view, a woman with long violet hair in a single braid and violet eyes (Raiden Shogun from Genshin Impact), standing on a stone embankment beside a green-painted wooden railing, her back and side turned to the camera, looking back over her shoulder up toward the viewer with a calm gentle expression, wearing a violet and white kimono-style coat, one hand folded quietly in front of her, correct left-right hand orientation, one small fluffy pink-and-white fox lying on top of the railing beside her, long pointed ears with tiny golden tassel earrings, a tiny white flower marking on its forehead, one large fluffy tail with a pink tip, eyes closed in a content smile, red maple foliage framing the upper corners, stone steps below scattered with fallen orange leaves, soft autumn afternoon light, crimson red and violet palette
 ```
 
 **Negative Prompt:**
 
 ```text
-cluttered background, busy background, overly detailed background, stacked overlapping elements, excessive glowing particles, excessive bokeh, light clutter, messy composition, 3d render, photorealistic, western cartoon, lowres, bad anatomy, deformed, blurry, watermark, text, worst quality, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, missing legs, missing feet, missing calves, cropped legs, legs out of frame, twisted legs, rotated hips, dislocated hip, extra legs, third leg, fused legs, malformed knees, knees bending in opposite directions, unnatural sitting pose, disproportionate limbs, elongated calves, deformed feet, extra limbs, disfigured, mutation, wrong hair color, wrong eye color, incorrect character
+cluttered background, busy background, overly detailed background, stacked overlapping elements, excessive glowing particles, excessive bokeh, light clutter, messy composition, 3d render, photorealistic, western cartoon, extra companion creatures, multiple foxes, cats, lowres, bad anatomy, deformed, blurry, watermark, text, worst quality, bad hands, extra fingers, fewer fingers, missing fingers, fused fingers, webbed fingers, merged fingers, overlapping fingers, deformed fingers, mutated fingers, six fingers, four fingers, three fingers, more than five fingers, less than five fingers, disfigured hands, poorly drawn hands, bad hand anatomy, asymmetrical hands, broken fingers, claw hands, blurry hands, indistinct fingers, smeared hands, missing legs, missing feet, missing calves, cropped legs, legs out of frame, twisted legs, rotated hips, dislocated hip, extra legs, third leg, fused legs, malformed knees, knees bending in opposite directions, unnatural sitting pose, disproportionate limbs, elongated calves, deformed feet, extra limbs, disfigured, mutation, wrong hair color, wrong eye color, incorrect character
 ```
 
 ---
