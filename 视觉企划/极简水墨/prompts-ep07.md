@@ -1,30 +1,31 @@
 <!--
 类型 G · 极简水墨 · 第 7 期 prompts（配合 bible.md 使用）
-选角：温迪 · 意象「风」（选题 007）
-热点与轮转判断：原神 7.2 上线 11-04（3 天后），但新角色米提亚/瓦列里已由 10-23「坏灭肇始之时」前瞻特辑与「星超导·雷鸣战舰」特辑覆盖；万圣节余温期已过；崩铁 4.7 版 11-11 开启。当日无新增可消化的独家热点，按三 G 系列轮转取最久未更者：水墨 10-29（第 6 期）＜名场面 10-30（第 10 期）＜清纯风 10-31（第 8 期），故续更本系列第 7 期，取矩阵顺位 007「温迪×风」。温迪为男性角色，类型 G 系列不适用性别系数（先例：第 6 期万叶）。上期万叶×枫之后接风神×风，风系双璧相继入画，自然承接「风」的母题。
-系列约定：黑墨单色、大留白、一笔写意；延续前六期的三姿势递进结构（静→动→融）。
-风的写意法：风本无形，以「一笔气流」写意——一条连绵回卷的细墨线即为风，蒲公英种子以细笔放射与散点墨粒点缀线侧（蒲公英为蒙德风之国的意象信物，与塞西莉亚花同源）。掌前承风（静）→ 执琴卷风（动）→ 化风归白（融）。变体③人物下半身轮廓笔触渐细渐散，随风向留白远处化去，呼应风神「自由、来去无踪」的本性。
+选角：申鹤 · 意象「鹤」（选题 015）
+热点与轮转判断：本期为用户指定插期（2026-11-13）——申鹤为用户点名角色，要求提前至第 7 期；原第 7/8/9 期（温迪×风/魈×月/达达利亚×鲸）已顺延为第 8/9/10 期，文件已重命名、bible 登记表已同步。今日（2026-11-13）无版本日/前瞻/节日：崩铁 4.7（11-11 上线）阿哈/爻光已由单人集消化，原神 7.2 上半已覆盖、下半兹白/莉奈娅复刻 11-25 开启。申鹤为女性角色，类型 G 系列不适用性别系数。
+系列约定：黑墨单色、大留白、一笔写意；沿用三姿势递进结构（静→动→融）。
+鹤的写意法：鹤以「一笔鹤颈」写意——一条 S 形长颈细墨线即为鹤的神韵，鹤身不着一墨（白羽即留白），双翅以两笔扫出，丹顶以一点浓墨示意（单色内的浓淡层级），长喙与细足各收一细线。云畔饲鹤（静）→ 振鹤穿云（动）→ 归鹤化白（融）。变体③人物下半身轮廓笔触渐细渐散，随鹤化入留白深处，呼应她「孤辰茕怀·尘外身，人间客」的命定——仙家弟子终要归山，人间只是借住；与第 8 期温迪「化风归白」、第 9 期魈「归月化白」构成璃月-蒙德-璃月「归处三连」的对照（第 10 期达达利亚「归鲸化白」则向海而去）。
+红绳的单色处理：申鹤标志性的缚魂红绳在水墨中以细墨线绳结表现——胸前交叉的两条细线、缀小结与短穗，是全画面除鹤之外唯一的「系物」细节，寓意「以绳锁煞、以结系心」。
 参考图作用域（四条 prompt 通用）：
 Referring to the attached artwork for character appearance only — hair color, hairstyle, eye color and facial features. Do not copy the outfit, pose, or composition of the reference.
 -->
 
 ## 参考图
 
-- 温迪官方参考图（B站WIKI 官方介绍图 2250px，源文件为 JPEG 已改扩展名，2026-11-01 本期下载并目视校对：深藏青短发、两条细辫垂肩且辫梢渐亮蓝、水青蓝瞳、绿色贝雷帽缀白色塞西莉亚花与大羽叶、绿短披风金边肩饰、白泡泡袖衬衫、深色束腰马甲、藏青领结绿宝石胸针、绿短裤、腰间金翼饰风元素晶石、白色长袜、携木质竖琴缀塞西莉亚花）：[../../原神/温迪/splash-art.jpg](../../原神/温迪/splash-art.jpg)
-- 作用域：仅锁定外观（发色发型、双辫与辫梢渐变、水青瞳、帽上花饰），不复制参考图服装、姿势与构图。着装按系列约定统一为诗人短装剪影：贝雷帽缀单朵大花 + 短披风 + 泡泡袖衬衫 + 束腰马甲（水墨化为纯黑轮廓）。
+- 申鹤官方立绘（B站WIKI 官方介绍图 2250×2250，实为 JPEG 数据已存为 .jpg；2026-11-13 本期下载后目视校对：白发黑梢高马尾+粗辫垂肩、淡紫瞳清冷远望、额前黑色弯角饰、红流苏耳坠、黑衣白褂胸前红绳结+短穗、墨青羽缘长披帛、称号「孤辰茕怀·尘外身，人间客」）：[../../原神/申鹤/splash-art.jpg](../../原神/申鹤/splash-art.jpg)
+- 作用域：仅锁定外观（白发黑梢高马尾粗辫、淡紫瞳、额前弯角饰、面部特征），不复制参考图服装、姿势与构图。着装按系列约定统一剪影：黑色水墨轮廓 + 紧身黑衣与白色短褂，胸前红绳以细墨线绳结表现，墨青羽缘披帛以数笔层扫作动势主笔。
 
 ## 背景场景（四条 prompt 通用，即 bible DNA 场景）
 
-纯白底、大面积留白、单笔写意；风意象按变体递进：掌前承风（静）→ 执琴卷风（动）→ 化风归白（融）。
+纯白底、大面积留白、单笔写意；鹤意象按变体递进：云畔饲鹤（静）→ 振鹤穿云（动）→ 归鹤化白（融）。山云仅以一条起伏细墨线示意，鹤以一笔 S 形长颈勾出，鹤身留白。
 
 ---
 
-### 001 变体① · 掌前承风（一线回卷，静）
+### 001 变体① · 云畔饲鹤（一笔鹤颈，静）
 
 **Positive Prompt:**
 
 ```text
-minimalist sumi-e style ink wash illustration, black ink lines only, monochrome black and white, vast negative space, pure white background, single brushstroke elegance, clean simple background, minimalist uncluttered composition, 3:4 vertical portrait wallpaper, perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose, clean finger separation, a youthful bard (Venti from Genshin Impact) with short layered dark hair, two thin braids falling past his shoulders with tips fading lighter rendered as thinner brushwork, gentle aqua-blue eyes, wearing a beret hat decorated with a single large five-petaled flower, a short cape over a puff-sleeved blouse and a corset at his waist, rendered as a black ink silhouette figure, standing perfectly still in three-quarter view with his eyes gently closed and his head slightly raised, savoring the wind, his open right palm raised beside his shoulder to catch a single drifting dandelion seed, his right sleeve pulled back to fully reveal his hand and wrist, all five fingers clearly visible and slightly spread with clear gaps, each drawn with a single clean ink line, the wind itself drawn as one continuous thin ink brushstroke curling and flowing past behind his shoulders, two or three tiny dandelion seeds scattered along the stroke as small ink dots, vast empty white space filling the rest of the frame
+minimalist sumi-e style ink wash illustration, black ink lines only, monochrome black and white, vast negative space, pure white background, single brushstroke elegance, clean simple background, minimalist uncluttered composition, 3:4 vertical portrait wallpaper, perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose, clean finger separation, a young female adeptus disciple (Shenhe from Genshin Impact) with long white hair with dark-tipped ends tied in a high ponytail with a thick braid falling over her shoulder, pale violet eyes with a calm distant gaze, a small black horn-shaped ornament on top of her head drawn as a short curved ink stroke, two small tassel earrings drawn as hanging ink accents, wearing a fitted dark bodysuit under a short white vest robe rendered as a black ink silhouette figure, narrow ropes with small knotted tassels crossing her chest drawn as fine single ink lines, standing still in three-quarter view with a serene unreadable expression, one hand extended forward palm up in a quiet offering gesture, all five fingers clearly visible and slightly spread with clear gaps, each drawn with a single clean ink line, a white crane standing beside her drawn with a single S-curved brushstroke for its long neck and one thin line for its beak and legs, a single dot of dark ink for its crown, the crane's body left as untouched white paper, the mountain clouds drawn as one thin undulating ink line low in the frame, vast empty white space filling the rest of the frame
 ```
 
 **Negative Prompt:**
@@ -35,12 +36,12 @@ color, colored, gradient color, any color tint, cluttered background, busy backg
 
 ---
 
-### 002 变体② · 执琴卷风（衣袂翻飞，动）
+### 002 变体② · 振鹤穿云（衣袂翻卷，动）
 
 **Positive Prompt:**
 
 ```text
-minimalist sumi-e style ink wash illustration, black ink lines only, monochrome black and white, vast negative space, pure white background, single brushstroke elegance, clean simple background, minimalist uncluttered composition, 3:4 vertical portrait wallpaper, perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose, clean finger separation, a youthful bard (Venti from Genshin Impact) with short layered dark hair, two thin braids falling past his shoulders with tips fading lighter rendered as thinner brushwork, gentle aqua-blue eyes, wearing a beret hat decorated with a single large five-petaled flower, a short cape over a puff-sleeved blouse and a corset at his waist, rendered as a black ink silhouette figure, caught mid-turn with his cape and braids streaming in a strong gust, a soft open-mouthed smile on his face, carrying a small wooden lyre at his side, his right hand gripping the lyre's wooden frame, all five fingers clearly visible wrapping the frame with clear gaps, each drawn with a single clean ink line, his left hand tucked inside his cape, the wind itself drawn as one continuous sweeping ink brushstroke that curls around his body from below and rises past his hat, several tiny dandelion seeds whirling along the stroke as scattered ink dots, vast empty white space filling the rest of the frame
+minimalist sumi-e style ink wash illustration, black ink lines only, monochrome black and white, vast negative space, pure white background, single brushstroke elegance, clean simple background, minimalist uncluttered composition, 3:4 vertical portrait wallpaper, perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose, clean finger separation, a young female adeptus disciple (Shenhe from Genshin Impact) with long white hair with dark-tipped ends tied in a high ponytail with a thick braid, pale violet eyes with a focused cold gaze, a small black horn-shaped ornament on top of her head drawn as a short curved ink stroke, two small tassel earrings drawn as hanging ink accents, wearing a fitted dark bodysuit under a short white vest robe with a long feather-edged sash, rendered as a black ink silhouette figure, caught mid-turn as she releases the crane skyward, her sash and robe hem streaming behind her drawn with swift sweeping brushstrokes, her right arm raised high with fingers just opened from the release, all five fingers clearly visible and slightly spread with clear gaps, each drawn with a single clean ink line, a great crane taking flight beside her drawn with two bold sweeping brushstrokes for its outspread wings and a single S-curved brushstroke for its long neck, a single dot of dark ink for its crown, its body left as untouched white paper, a few scattered ink dots suggesting drifting cloud mist, the mountain ridge drawn as one thin undulating ink line low in the frame, vast empty white space filling the rest of the frame
 ```
 
 **Negative Prompt:**
@@ -51,12 +52,12 @@ color, colored, gradient color, any color tint, cluttered background, busy backg
 
 ---
 
-### 003 变体③ · 化风归白（笔触渐散，融）
+### 003 变体③ · 归鹤化白（笔触渐散，融）
 
 **Positive Prompt:**
 
 ```text
-minimalist sumi-e style ink wash illustration, black ink lines only, monochrome black and white, vast negative space, pure white background, single brushstroke elegance, clean simple background, minimalist uncluttered composition, 3:4 vertical portrait wallpaper, perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose, clean finger separation, a youthful bard (Venti from Genshin Impact) with short layered dark hair, two thin braids falling past his shoulders with tips fading lighter rendered as thinner brushwork, wearing a beret hat decorated with a single large five-petaled flower, a short cape over a puff-sleeved blouse and a corset at his waist, rendered as a black ink silhouette figure, seen from behind with his head gently tilted in quiet half-profile, both arms relaxed at his sides with his hands resting inside his cape, the wind itself drawn as one long continuous ink brushstroke that flows up from behind him and carries his own lower silhouette away, his legs and the hem of his cape drawn with thinning brushwork that gradually dissolves into scattered ink dots drifting toward the empty distance, a few tiny dandelion seeds leading the way into untouched white paper, the bard and the wind becoming one, vast empty white space filling the rest of the frame
+minimalist sumi-e style ink wash illustration, black ink lines only, monochrome black and white, vast negative space, pure white background, single brushstroke elegance, clean simple background, minimalist uncluttered composition, 3:4 vertical portrait wallpaper, perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose, clean finger separation, a young female adeptus disciple (Shenhe from Genshin Impact) with long white hair with dark-tipped ends tied in a high ponytail with a thick braid, a small black horn-shaped ornament on top of her head drawn as a short curved ink stroke, wearing a fitted dark bodysuit under a short white vest robe with a long feather-edged sash, rendered as a black ink silhouette figure, seen from behind with her head gently tilted toward the horizon, both arms relaxed at her sides, standing on the thin undulating ink line of the mountain clouds, a white crane flying away into the vast white distance ahead of her drawn with a single S-curved brushstroke for its long neck and two light strokes for its wings, its body left as untouched white paper, her legs and the hem of her robe drawn with thinning brushwork that gradually dissolves into scattered ink dots drifting after the crane, as if an outcast of the mortal world finally returning to the mountains where she belongs, vast empty white space filling the rest of the frame
 ```
 
 **Negative Prompt:**
@@ -71,12 +72,12 @@ color, colored, gradient color, any color tint, cluttered background, busy backg
 
 杂志封面式水墨肖像：3:4 竖版，报头「EEAnime」居顶部竖排，人物英文名大写置于下方留白处，当期意象单笔点缀。封面 negative 基线不含 `text`（报头与角色名是需要保留的文字），另加字体质量词；封面不计入正文自检计数 N。
 
-### 封面 · Venti「风」
+### 封面 · Shenhe「鹤」
 
 **Positive Prompt:**
 
 ```text
-minimalist sumi-e style ink wash magazine cover illustration, black ink lines only, monochrome black and white, pure white background, clean simple background, minimalist uncluttered composition, 3:4 vertical magazine cover, perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose, clean finger separation, a youthful bard (Venti from Genshin Impact) with short layered dark hair, two thin braids falling past his shoulders with tips fading lighter rendered as thinner brushwork, gentle aqua-blue eyes, wearing a beret hat decorated with a single large five-petaled flower, three-quarter bust portrait facing the viewer with a soft playful smile and a gentle glance toward the viewer, rendered in elegant black ink line work with delicate facial detail, a single curling wind brushstroke sweeping behind his shoulder with one tiny dandelion seed drifting along it, the magazine title text "EEAnime" in small artistic hand-painted ink brush lettering, letters stacked vertically down the upper right edge of the cover, the character name text "VENTI" in smaller black serif letters in the lower area, generous white negative space
+minimalist sumi-e style ink wash magazine cover illustration, black ink lines only, monochrome black and white, pure white background, clean simple background, minimalist uncluttered composition, 3:4 vertical magazine cover, perfect hands, five fingers on each hand, anatomically correct hands, well-defined fingers, natural hand pose, clean finger separation, a young female adeptus disciple (Shenhe from Genshin Impact) with long white hair with dark-tipped ends tied in a high ponytail with a thick braid falling over her shoulder, pale violet eyes with a calm distant gaze, a small black horn-shaped ornament on top of her head drawn as a short curved ink stroke, two small tassel earrings drawn as hanging ink accents, three-quarter bust portrait facing the viewer with a serene unreadable expression, rendered in elegant black ink line work with delicate facial detail, a white crane beside her shoulder drawn with a single S-curved brushstroke for its long neck and one thin line for its beak, a single dot of dark ink for its crown, the crane's body left as untouched white paper, the magazine title text "EEAnime" in small artistic hand-painted ink brush lettering, letters stacked vertically down the upper right edge of the cover, the character name text "SHEN HE" in smaller black serif letters in the lower area, generous white negative space
 ```
 
 **Negative Prompt:**
